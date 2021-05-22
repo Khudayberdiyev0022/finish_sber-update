@@ -1,0 +1,167 @@
+.main {
+   display: none;
+ }
+ @media screen and (max-width: 720px) {
+   .main {
+     display: block;
+     width: 100%;
+     height: 74px;
+     background-color: #000;
+     position: fixed;
+     width: 100%;
+     z-index: 100;
+   }
+   .container {
+     width: 90%;
+     height: 100%;
+     margin: auto;
+   }
+   .visible {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+   .visible .logo {
+     width: 89px;
+     height: 23.49px;
+     background-size: contain;
+     background-repeat: no-repeat;
+   }
+   .visible .menu {
+     width: 32px;
+     height: 32px;
+     background-size: contain;
+     background-repeat: no-repeat;
+     cursor: pointer;
+   }
+   .invisible {
+     position: fixed;
+     width: 100%;
+     height: 115%;
+     top: 0;
+     left: 0;
+     background: rgb(55, 63, 75);
+     z-index: 101;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+   }
+   .status {
+     margin-right: 15px;
+     height: 24px;
+     margin-top: 4px;
+   }
+   .buttons {
+     height: 179px;
+     margin: auto;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+   }
+   .buttons > button {
+     width: 327px;
+     height: 55px;
+     border-radius: 40px;
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+     margin: 0px 24px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+   }
+   .buttonGreen {
+     border: none;
+     background: linear-gradient(270deg, #24e029 0%, #00b9ac 100%);
+     cursor: pointer;
+   }
+   .buttonGreen:hover {
+     background: linear-gradient(270deg, #2bf32f 0%, #0cc8bb 100%);
+     cursor: pointer;
+   }
+   .buttonGreen:active {
+     background: linear-gradient(270deg, #1cd920 0%, #08b6aa 100%);
+     cursor: pointer;
+   }
+   .buttons .buttonGreen a {
+     font-style: normal;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 23px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: #fff;
+     text-decoration: none;
+   }
+   .buttonBlack {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 16px 32px;
+     position: static;
+     width: 316px;
+     height: 55px;
+     left: 340px;
+     top: 0.5px;
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     background: transparent;
+     box-sizing: border-box;
+     border-radius: 30px;
+     cursor: pointer;
+   }
+   .buttonGreen:hover {
+     background: rgba(255, 255, 255, 0.08);
+     border: 1px solid rgba(255, 255, 255, 0.3);
+   }
+   .buttonGreen:active {
+     background: rgba(255, 255, 255, 0.05);
+     border: 1px solid rgba(255, 255, 255, 0.3);
+   }
+   .buttonBlack a {
+     font-style: normal;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 23px;
+     color: rgba(255, 255, 255, 0.7);
+     text-decoration: none;
+   }
+   .close {
+     width: 32px;
+     height: 32px;
+     background-size: contain;
+     margin-left: 88%;
+     margin-top: 30px;
+     cursor: pointer;
+   }
+   .top {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+   }
+   .content {
+     margin-top: 50px;
+     width: 100%;
+     height: 140px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   .content a {
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 32px;
+     text-decoration: none;
+     text-align: center;
+     margin: 16px auto;
+     color: #ffffff;
+   }
+ }
+ 
