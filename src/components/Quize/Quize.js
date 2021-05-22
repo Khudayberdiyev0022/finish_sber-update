@@ -10,6 +10,7 @@ import fb from "../../assets/svg/Facebook.svg";
 import vk from "../../assets/svg/Vk.svg";
 import ok from "../../assets/svg/Odnoklassniki.svg";
 import iconEye from "../../assets/svg/iconEye.svg";
+import iconPrev from "./../../assets/svg/iconPrev.svg";
 import { questions } from "./QuestionList";
 
 const initialState = {
@@ -100,16 +101,22 @@ const Quize = () => {
             {state.selected !== null && (
               <div className={style.buttons}>
                 <div
-                  className={style.button1}
-                  onClick={() => dispatch({ type: "CLICKED", payload: 1 })}
-                >
-                  <h2>Следующий вопрос</h2>
-                </div>
-                <div
                   className={style.button2}
                   onClick={() => dispatch({ type: "BACK", payload: 1 })}
                 >
                   <h2>Назад</h2>
+                </div>
+                <div
+                  className={style.iconPrev}
+                  onClick={() => dispatch({ type: "BACK", payload: 1 })}
+                >
+                  <img src={iconPrev} alt="iconPrev" />
+                </div>
+                <div
+                  className={style.button1}
+                  onClick={() => dispatch({ type: "CLICKED", payload: 1 })}
+                >
+                  <h2>Следующий вопрос</h2>
                 </div>
               </div>
             )}
@@ -190,15 +197,8 @@ const Quize = () => {
             </div>
           </div>
         )}
-        <div
-          style={{
-            display: "flex",
-            width: "100%",
-            justifyContent: "space-beetwen",
-            alignItems: "baseline",
-          }}
-        >
-          <div style={{ width: "70%" }}>
+        <div className={style.iconsAll}>
+          <div className={style.iconsGroup}>
             <div className={style.icons}>
               <div className={style.fb}>
                 <img src={fb} alt="fb" />

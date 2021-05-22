@@ -39,7 +39,7 @@
    .invisible {
      position: fixed;
      width: 100%;
-     height: 115%;
+     height: 100%;
      top: 0;
      left: 0;
      background: rgb(55, 63, 75);
@@ -135,8 +135,8 @@
      width: 32px;
      height: 32px;
      background-size: contain;
-     margin-left: 88%;
-     margin-top: 30px;
+     margin-left: 90%;
+     margin-top: 20px;
      cursor: pointer;
    }
    .top {

@@ -1,13 +1,13 @@
 import React from "react";
 import style from "./Section.module.css";
-import { AiOutlineEye } from "react-icons/ai";
+import iconView from "../../assets/svg/iconView.svg";
 import { GrLinkNext } from "react-icons/gr";
 
 function Section() {
   return (
     <div className={style.main}>
-      <h3 className={style.headerTitle}>Статьи</h3>
       <div className={style.container}>
+        <h3 className={style.headerTitle}>Статьи</h3>
         <div className={style.top}>
           <div className={style.left}>
             <div className={style.small}>
@@ -15,7 +15,7 @@ function Section() {
               <h1>Как безопасно совершать покупки в интернете</h1>
               <div className={style.see}>
                 <div className={style.eye}>
-                  <AiOutlineEye />
+                  <img src={iconView} alt="iconView" />
                   <h4>35</h4>
                 </div>
                 <div className={style.next}>
@@ -32,7 +32,7 @@ function Section() {
               </h1>
               <div className={style.see}>
                 <div className={style.eye}>
-                  <AiOutlineEye />
+                  <img src={iconView} alt="iconView" />
                   <h4>35</h4>
                 </div>
                 <div className={style.next}>
@@ -50,7 +50,7 @@ function Section() {
             </h1>
             <div className={style.see}>
               <div className={style.eye}>
-                <AiOutlineEye />
+                <img src={iconView} alt="iconView" />
                 <h4>35</h4>
               </div>
               <div className={style.next}>
@@ -69,7 +69,7 @@ function Section() {
             </h1>
             <div className={style.see}>
               <div className={style.eye}>
-                <AiOutlineEye />
+                <img src={iconView} alt="iconView" />
                 <h4>35</h4>
               </div>
               <div className={style.next}>
@@ -87,7 +87,7 @@ function Section() {
             </h1>
             <div className={style.see}>
               <div className={style.eye}>
-                <AiOutlineEye />
+                <img src={iconView} alt="iconView" />
                 <h4>35</h4>
               </div>
               <div className={style.next}>
@@ -100,7 +100,7 @@ function Section() {
             <h1>Как уберечь ребенка от вредного и опасного контента в сети</h1>
             <div className={style.see}>
               <div className={style.eye}>
-                <AiOutlineEye />
+                <img src={iconView} alt="iconView" />
                 <h4>35</h4>
               </div>
               <div className={style.next}>
@@ -115,22 +115,3 @@ function Section() {
 }
 
 export default Section;
-// w:327px
-
-// h: 261px
-
-//h:496
-
-//h: 261
-
-//h: 496
-
-//oq
-// w:263
-// h:196
-
-// date: 12px
-
-//18px
-
-//58 22

@@ -146,6 +146,6 @@
     flex-direction: column;
   }
   .buttons > button {
-    margin: 16px 0px;
+    margin-top: 16px;
   }
 }
