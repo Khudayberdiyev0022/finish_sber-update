@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Header.module.css";
 import iconSalute from "../../assets/svg/iconSalute.svg"
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -19,10 +20,10 @@ const Header = () => {
         </div>
         <div className={style.buttons}>
           <button className={style.buttonGreen}>
-            <a href="/">Пройти тест с ассистентами Салют</a>
+            <Link to="/salute">Пройти тест с ассистентами Салют</Link>
           </button>
           <button className={style.buttonBlack}>
-            <a href="/">Остаться на сайте и пройти тест</a>
+            <Link to="/tests">Остаться на сайте и пройти тест</Link>
           </button>
         </div>
       </div>

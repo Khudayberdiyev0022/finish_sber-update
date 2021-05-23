@@ -62,7 +62,7 @@
   width: 501px;
   height: 78px;
   border: 0.5px solid #ffffff;
-  opacity: 0.5;
+  opacity: 0.3;
   border-radius: 16px;
   margin: 5px 0;
   cursor: url("../../assets/svg/Group.svg"), auto;
@@ -78,7 +78,7 @@
   font-weight: 100;
   font-size: 18px;
   line-height: 26px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
 }
 .question:hover {
   border: 1px solid #fff;
@@ -190,7 +190,7 @@
 .answers h3 {
   margin: 32px 40px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 18px;
   line-height: 26px;
   color: #ffffff;
@@ -280,7 +280,7 @@
   font-style: normal;
   font-weight: 100;
   font-size: 48px;
-  line-height: 1;
+  line-height: 56px;
   margin-bottom: 5px;
 }
 .mainResult h1 > span {
@@ -315,6 +315,9 @@
   width: 100%;
   justify-content: space-beetwen;
   align-items: baseline;
+}
+.iconsAll a {
+  text-decoration: none;
 }
 .iconsGroup {
   width: 70%;
@@ -777,6 +780,7 @@
   }
   .resultPage > div {
     width: 295px;
+    margin-bottom: 32px;
   }
   .iconsGroup {
     width: 100%;

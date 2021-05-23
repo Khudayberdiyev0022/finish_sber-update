@@ -12,6 +12,7 @@ import ok from "../../assets/svg/Odnoklassniki.svg";
 import iconEye from "../../assets/svg/iconEye.svg";
 import iconPrev from "./../../assets/svg/iconPrev.svg";
 import { questions } from "./QuestionList";
+import { Link } from "react-router-dom";
 
 const initialState = {
   mouseHover: false,
@@ -211,13 +212,15 @@ const Quize = () => {
               </div>
             </div>
           </div>
-          <div
+         <Link to="/tests">
+         <div
             className={style.reload}
             onClick={() => window.location.reload()}
           >
             <img src={update} alt="update" />
             <h3>Пройти еще раз</h3>
           </div>
+         </Link>
         </div>
       </div>
     );
