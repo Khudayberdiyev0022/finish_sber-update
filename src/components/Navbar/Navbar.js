@@ -14,8 +14,8 @@ const Navbar = () => {
           </div>
         </Link>
         <div className={style.content}>
-          <Link to="/tests">Тест</Link>
-          <Link to="/articles">Статьи</Link>
+          <a href="#test">Тест</a>
+          <a href="#article">Статьи</a>
           <Link to="/useful">Полезные материалы</Link>
         </div>
         <Link to="/">

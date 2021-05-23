@@ -40,12 +40,12 @@ const NavbarMobile = () => {
                 style={{ backgroundImage: `url(${iconClose})` }}
               ></div>
               <div className={style.content}>
-                <Link to="/tests" onClick={() => setClick(false)}>
+                <a href="#test" onClick={() => setClick(false)}>
                   Тест
-                </Link>
-                <Link to="/articles" onClick={() => setClick(false)}>
+                </a>
+                <a href="#article" onClick={() => setClick(false)}>
                   Статьи
-                </Link>
+                </a>
                 <Link to="/useful" onClick={() => setClick(false)}>
                   Полезные материалы
                 </Link>

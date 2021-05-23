@@ -1,7 +1,8 @@
 .main {
   width: 100%;
   background-color: #000;
-  padding: 226px 166px;
+  /* padding: 226px 166px; */
+  padding: 226px 0px;
 }
 .container {
   width: 1108px;
@@ -61,8 +62,8 @@
 .question {
   width: 501px;
   height: 78px;
-  border: 0.5px solid #ffffff;
-  opacity: 0.3;
+  border: 0.5px solid rgba(255, 255, 255, 0.7);
+  /* opacity: 0.7; */
   border-radius: 16px;
   margin: 5px 0;
   cursor: url("../../assets/svg/Group.svg"), auto;
@@ -72,18 +73,19 @@
   height: 100%;
   display: flex;
   align-items: center;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   margin: auto;
   font-style: normal;
   font-weight: 100;
   font-size: 18px;
   line-height: 26px;
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 .question:hover {
-  border: 1px solid #fff;
+  border: 1px solid rgba(255, 255, 255, 1);
   opacity: 1;
 }
+
 .question:hover h3 {
   opacity: 1;
 }
@@ -181,8 +183,7 @@
 .answers {
   width: 501px;
   min-height: auto;
-  border: 0.5px solid #ffffff;
-  box-sizing: border-box;
+  border: 0.5px solid rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(300px);
   border-radius: 16px;
   margin: 16px 0px;
@@ -262,8 +263,8 @@
 }
 .resultPage > div {
   width: 496px;
-  height: 288px;
-  margin-top: 48px;
+  /* height: 288px; */
+  /* margin-top: 48px; */
   margin-bottom: 122px;
 }
 .mainResult > h1 {
@@ -294,7 +295,7 @@
 }
 .mainResult {
   width: 1108px;
-  height: 641px;
+  /* height: 641px; */
   padding: 54px 0px 48px 48px;
 }
 .right {
@@ -379,7 +380,8 @@
 
   border-image-source: linear-gradient(270deg, #24e029 0%, #00b9ac 100%);
 }
-.reload h3 {
+.reload a {
+  text-decoration: none;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -444,8 +446,8 @@
   .resultPage > div {
     width: 362px;
     height: 247px;
-    margin-bottom: 90px;
-    margin-top: 32px;
+    /* margin-bottom: 90px; */
+    margin-top: 18px;
   }
   .left h1 {
     font-size: 42px;
@@ -578,6 +580,7 @@
   }
   .question {
     width: 100%;
+    border: 0.5px solid rgba(255, 255, 255, 0.7);
   }
   .answers {
     min-height: auto;
@@ -600,7 +603,7 @@
   }
   .resultPage > div {
     margin-bottom: 0px;
-    margin-top: 24px;
+    /* margin-top: 24px; */
   }
   .resultPage {
     flex-direction: column-reverse;
@@ -691,6 +694,9 @@
   }
   .button1 h2 {
     font-size: 14px;
+  }
+  .question h3 {
+    line-height: 20px;
   }
 }
 

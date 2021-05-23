@@ -39,6 +39,8 @@ const reducer = (state, action) => {
         ...state,
         selected: initialState.selected,
       };
+    case "RELOAD":
+      return initialState;
     case "CLICKED":
       return {
         ...state,
@@ -54,6 +56,12 @@ const reducer = (state, action) => {
 const Quize = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const [resutSee, setResutSee] = useState(false);
+
+  const reloadPage = () => {
+    dispatch({ type: "RELOAD" });
+    setResutSee(false);
+  };
+
   const questionRender = () => {
     return (
       <div className={style.contentContainer}>
@@ -212,15 +220,12 @@ const Quize = () => {
               </div>
             </div>
           </div>
-         <Link to="/tests">
-         <div
-            className={style.reload}
-            onClick={() => window.location.reload()}
-          >
-            <img src={update} alt="update" />
-            <h3>Пройти еще раз</h3>
-          </div>
-         </Link>
+          <Link to="/">
+            <div className={style.reload} onClick={reloadPage}>
+              <img src={update} alt="update" />
+              <Link to="/">Пройти еще раз</Link>
+            </div>
+          </Link>
         </div>
       </div>
     );
@@ -253,7 +258,7 @@ const Quize = () => {
         className={style.container}
         style={{ backgroundImage: `url(${image})` }}
       >
-        <div className={style.content}>
+        <div className={style.content} id="test">
           {state.clicked < 8 && questionRender()}
           {state.clicked > 7 && !resutSee && lastSectionRender()}
           {resutSee && resultRender()}

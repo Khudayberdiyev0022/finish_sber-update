@@ -1,11 +1,11 @@
 import React from "react";
 import style from "./Section.module.css";
 import iconView from "../../assets/svg/iconView.svg";
-import { GrLinkNext } from "react-icons/gr";
+import iconNext from "../../assets/svg/iconNext.svg";
 
 function Section() {
   return (
-    <div className={style.main}>
+    <div className={style.main} id="article">
       <div className={style.container}>
         <h3 className={style.headerTitle}>Статьи</h3>
         <div className={style.top}>
@@ -19,7 +19,7 @@ function Section() {
                   <h4>35</h4>
                 </div>
                 <div className={style.next}>
-                  <GrLinkNext />
+                  <img src={iconNext} alt="iconNext" />
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@ function Section() {
                   <h4>35</h4>
                 </div>
                 <div className={style.next}>
-                  <GrLinkNext />
+                  <img src={iconNext} alt="" />
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ function Section() {
                 <h4>35</h4>
               </div>
               <div className={style.next}>
-                <GrLinkNext />
+                <img src={iconNext} alt="" />
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ function Section() {
                 <h4>35</h4>
               </div>
               <div className={style.next}>
-                <GrLinkNext />
+                <img src={iconNext} alt="" />
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ function Section() {
                 <h4>35</h4>
               </div>
               <div className={style.next}>
-                <GrLinkNext />
+                <img src={iconNext} alt="" />
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ function Section() {
                 <h4>35</h4>
               </div>
               <div className={style.next}>
-                <GrLinkNext />
+                <img src={iconNext} alt="" />
               </div>
             </div>
           </div>

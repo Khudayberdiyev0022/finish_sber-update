@@ -135,10 +135,13 @@
   border: 1px solid rgba(239, 239, 239);
   cursor: pointer;
 }
-.next svg path {
-  width: 20px;
-  height: 20px;
-  stroke: rgba(239, 239, 239) !important;
+.next:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.next:active {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 @media screen and (max-width: 1200px) {
