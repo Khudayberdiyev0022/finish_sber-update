@@ -1,6 +1,6 @@
 import React, { Fragment, useReducer, useState } from "react";
 import style from "./Quize.module.css";
-import image from "../../assets/svg/6.svg";
+import image from "../../assets/svg/bgQuize.svg";
 import img from "../../assets/img/Component2.png";
 import img2 from "../../assets/img/Component3.png";
 import img3 from "../../assets/svg/salut.svg";
@@ -256,14 +256,15 @@ const Quize = () => {
     <div className={style.main}>
       <div
         className={style.container}
-        style={{ backgroundImage: `url(${image})` }}
+        
       >
-        <div className={style.content} id="test">
+        <div className={style.content} id="test" style={{ backgroundImage: `url(${image})` }}>
           {state.clicked < 8 && questionRender()}
           {state.clicked > 7 && !resutSee && lastSectionRender()}
           {resutSee && resultRender()}
         </div>
       </div>
+      <h2 className={style.headerBottom}>Статьи</h2>
     </div>
   );
 };

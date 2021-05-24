@@ -32,8 +32,8 @@ const NavbarMobile = () => {
           </div>
         </div>
         {click && (
-          <div className={style.invisible}>
-            <div className={style.top}>
+          <div className={style.invisible} >
+            <div className={style.top} >
               <div
                 onClick={() => setClick(false)}
                 className={style.close}
@@ -57,7 +57,7 @@ const NavbarMobile = () => {
                   <Link to="/salute" onClick={() => setClick(false)}>Пройти тест с ассистентами Салют</Link>
                 </button>
                 <button className={style.buttonBlack}>
-                  <Link to="/tests" onClick={() => setClick(false)}>Остаться на сайте и пройти тест</Link>
+                  <a href="#test" onClick={() => setClick(false)}>Остаться на сайте и пройти тест</a>
                 </button>
               </div>
             </div>

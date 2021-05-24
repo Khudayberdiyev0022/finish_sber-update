@@ -7,7 +7,6 @@ function Section() {
   return (
     <div className={style.main} id="article">
       <div className={style.container}>
-        <h3 className={style.headerTitle}>Статьи</h3>
         <div className={style.top}>
           <div className={style.left}>
             <div className={style.small}>
@@ -41,7 +40,7 @@ function Section() {
               </div>
             </div>
           </div>
-          <div className={style.right}>
+          <div className={style.right} id="bgGradient">
             <div className={style.image}></div>
             <h2>20 июня 2020 </h2>
             <h1>

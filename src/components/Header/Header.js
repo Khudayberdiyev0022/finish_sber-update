@@ -23,7 +23,7 @@ const Header = () => {
             <Link to="/salute">Пройти тест с ассистентами Салют</Link>
           </button>
           <button className={style.buttonBlack}>
-            <Link to="/tests">Остаться на сайте и пройти тест</Link>
+            <a href="#test">Остаться на сайте и пройти тест</a>
           </button>
         </div>
       </div>

@@ -6,7 +6,7 @@
     display: block;
     width: 100%;
     height: 74px;
-    background-color: #000;
+    background-color: rgb(2, 12, 17);
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -36,6 +36,7 @@
     background-repeat: no-repeat;
     cursor: pointer;
   }
+ 
   .invisible {
     position: fixed;
     width: 100%;
@@ -135,7 +136,7 @@
     width: 32px;
     height: 32px;
     background-size: contain;
-    margin-left: 90%;
+    margin-left: 88%;
     margin-top: 20px;
     cursor: pointer;
   }
