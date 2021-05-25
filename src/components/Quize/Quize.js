@@ -61,7 +61,6 @@ const Quize = () => {
     dispatch({ type: "RELOAD" });
     setResutSee(false);
   };
-
   const questionRender = () => {
     return (
       <div className={style.contentContainer}>
@@ -69,7 +68,14 @@ const Quize = () => {
         <h2>
           {state.clicked < 8 && state.clicked} <span>ИЗ 7 ШАГОВ</span>{" "}
         </h2>
-        <h1>{questions[state.clicked - 1][0].answer}</h1>
+        <h1>
+          {state.selected
+            ? questions[state.clicked - 1][0].answer
+            : questions[state.clicked - 1][0].answer}
+        </h1>
+        <h1 className={style.mobileH1}>
+          {state.selected ? null : questions[state.clicked - 1][0].answer}
+        </h1>
         <div className={style.info}>
           <div className={style.questions}>
             {state.selected !== null && (
@@ -89,6 +95,7 @@ const Quize = () => {
                       className={style.question}
                       onClick={() => {
                         dispatch({ type: "SELECTED", payload: question });
+                        // changeSvg();
                       }}
                       onMouseEnter={() =>
                         dispatch({ type: "HOVER", payload: true })
@@ -132,9 +139,22 @@ const Quize = () => {
           </div>
           <div
             className={style.image}
-            style={{
-              backgroundImage: `url(${state.mouseHover ? img2 : img})`,
-            }}
+            style={
+              state.selected
+                ? { backgroundImage: `url(${state.selected.svg})` }
+                : { backgroundImage: `url(${state.mouseHover ? img2 : img})` }
+            }
+          ></div>
+          <div
+            className={style.imageMobile}
+            style={
+              state.selected
+                ? {
+                    backgroundImage: `url(${state.selected.svg})`,
+                    height: "175px",
+                  }
+                : null
+            }
           ></div>
         </div>
       </div>
@@ -150,17 +170,15 @@ const Quize = () => {
         {state.allScore >= 0 && (
           <div className={style.resultPage}>
             <div className={style.left}>
-              {state.allScore < 7 && <h1>Ваша система в опасности!</h1>}
+              {state.allScore < 7 && <h1>Вы задремали на посту</h1>}
               {state.allScore <= 13 && (
                 <Fragment>
-                  {state.allScore >= 7 && (
-                    <h1>Необходимо установить обновление!</h1>
-                  )}
+                  {state.allScore >= 7 && <h1>Вы уверенный пользователь</h1>}
                 </Fragment>
               )}
               {state.allScore <= 21 && (
                 <Fragment>
-                  {state.allScore >= 14 && <h1>Вы надежно защищены!</h1>}
+                  {state.allScore >= 14 && <h1>Вы настоящий киберзащитник!</h1>}
                 </Fragment>
               )}
 
@@ -170,7 +188,7 @@ const Quize = () => {
                   сети: может быть, он просто еще не дорос до собственных
                   гаджетов, а может, вы сами не считаете это важным. В любом
                   случае, вам вместе с ребенком стоит подтянуть теорию и узнать
-                  об опасностях интернета.{" "}
+                  об опасностях интернета.
                 </p>
               )}
               {state.allScore <= 13 && (
@@ -189,8 +207,8 @@ const Quize = () => {
                 <Fragment>
                   {state.allScore >= 14 && (
                     <p>
-                      Вы точно знаете, как обезопасить свои личные данные и
-                      говорите об этом с ребенком. Но не забывайте, что
+                      Поздравляем! Вы точно знаете, как обезопасить свои личные
+                      данные и говорите об этом с ребенком. Но не забывайте, что
                       происходящее в интернете очень быстро меняется и свои
                       знания тоже надо обновлять.
                     </p>
@@ -254,11 +272,12 @@ const Quize = () => {
 
   return (
     <div className={style.main}>
-      <div
-        className={style.container}
-        
-      >
-        <div className={style.content} id="test" style={{ backgroundImage: `url(${image})` }}>
+      <div className={style.container}>
+        <div
+          className={style.content}
+          id="test"
+          style={{ backgroundImage: `url(${image})` }}
+        >
           {state.clicked < 8 && questionRender()}
           {state.clicked > 7 && !resutSee && lastSectionRender()}
           {resutSee && resultRender()}
