@@ -10,19 +10,19 @@ import answer9 from "../../assets/svg/answer9.svg";
 import answer10 from "../../assets/svg/answer10.svg";
 import answer11 from "../../assets/svg/answer11.svg";
 import answer12 from "../../assets/svg/answer12.svg";
+import answer13 from "../../assets/svg/answer13.svg";
+import answer14 from "../../assets/svg/answer14.svg";
+import answer15 from "../../assets/svg/answer15.svg";
+import answer16 from "../../assets/svg/answer16.svg";
+import answer17 from "../../assets/svg/answer17.svg";
+import answer18 from "../../assets/svg/answer18.svg";
+import answer19 from "../../assets/svg/answer19.svg";
+import answer20 from "../../assets/svg/answer20.svg";
+import answer21 from "../../assets/svg/answer21.svg";
+import answer22 from "../../assets/svg/answer22.svg";
+import answer23 from "../../assets/svg/answer23.svg";
+import answer24 from "../../assets/svg/answer24.svg";
 
-// import answer13 from "../../assets/svg/answer13.svg";
-// import answer14 from "../../assets/svg/answer14.svg";
-// import answer15 from "../../assets/svg/answer15.svg";
-// import answer16 from "../../assets/svg/answer16.svg";
-// import answer17 from "../../assets/svg/answer17.svg";
-// import answer18 from "../../assets/svg/answer18.svg";
-// import answer19 from "../../assets/svg/answer19.svg";
-// import answer20 from "../../assets/svg/answer20.svg";
-// import answer21 from "../../assets/svg/answer21.svg";
-// import answer22 from "../../assets/svg/answer22.svg";
-// import answer23 from "../../assets/svg/answer23.svg";
-// import answer24 from "../../assets/svg/answer24.svg";
 // import answe25 from "../../assets/svg/answe25.svg";
 // import answer26 from "../../assets/svg/answer26.svg";
 // import answer27 from "../../assets/svg/answer27.svg";
@@ -143,7 +143,7 @@ export const questions = [
       subText:
         "Увлечение ребенка профессией блогера - это здорово! Но прежде чем вставать на этот путь, важно обсудить правила безопасности и риски при росте подписчиков (от мошенничества до буллинга).",
       score: "0",
-      // svg: answer13,
+      svg: answer13,
     },
     {
       id: 2,
@@ -151,7 +151,7 @@ export const questions = [
       subText:
         "А вы знали, что сторис в инстаграме можно скрывать от определенных групп пользователей? А еще подростки нередко создают альтернативные аккаунты в соцсетях, о которых родители не знают. Поэтому здесь важен не жесткий контроль, а диалог между взрослым и ребенком, доверие и, конечно, обсуждение рисков в сети.",
       score: "1",
-      // svg: answer14,
+      svg: answer14,
     },
     {
       id: 3,
@@ -159,7 +159,7 @@ export const questions = [
       subText:
         "Возможно, чтобы привыкнуть к алгоритмам и общению в социальных сетях, можно использовать такой метод. Но в дальнейшем ребенку захочется большей свободы: обсуждайте разные ситуации, которые происходят в сети, поговорите о настройках приватности, мошенничестве и правилах общения в сети.",
       score: "3",
-      // svg: answer15,
+      svg: answer15,
     },
     {
       id: 4,
@@ -167,7 +167,7 @@ export const questions = [
       subText:
         "Даже если ребенок пока не завел аккаунт в инстаграме и тиктоке, говорить о тактике общения в интернете можно уже сейчас, это подготовит ребенка к дальнейшей (скорее всего - неизбежной) жизни в социальных сетях.",
       score: "2",
-      // svg: answer16,
+      svg: answer16,
     },
   ],
   [
@@ -179,7 +179,7 @@ export const questions = [
       subText:
         "Это правильно, ведь безопасность ребенка во многом зависит от того, насколько у него развито критическое мышление. Но не забывайте напоминать ребенку о том, что не всем ресурсам и людям в интернете можно доверять.",
       score: "3",
-      // svg: answer17,
+      svg: answer17,
     },
     {
       id: 2,
@@ -187,7 +187,7 @@ export const questions = [
       subText:
         "Подвергать контент в интернете сомнению - важно. Вы можете учиться этому вместе с ребенком",
       score: "0",
-      // svg: answer18,
+      svg: answer18,
     },
     {
       id: 3,
@@ -195,14 +195,14 @@ export const questions = [
       subText:
         "Контроль - это важно, но чем старше становится ребенок, тем больше свободы он потребует в своей интернет-вселенной. Поэтому вместе с контролем не забывайте о теории.",
       score: "2",
-      // svg: answer19,
+      svg: answer19,
     },
     {
       id: 4,
       text: "Я не знаю",
       subText: "Честный ответ! Не всегда мы можем предугадать поведение ребенка в критической ситуации, поэтому важно проговаривать как можно больше ситуаций и повторять правила поведения в сети",
       score: "1",
-      // svg: answer20,
+      svg: answer20,
     },
   ],
   [
@@ -214,7 +214,7 @@ export const questions = [
       subText:
         "А вы уверены, что ваш телефон или планшет защищены от незапланированных покупок? Если вы доверяете ребенку свои гаджеты, убедитесь, что у вас включены ограничения для встроенных покупок, данные карты отсутствуют, а банковские приложения защищены паролем.",
       score: "1",
-      // svg: answer21,
+      svg: answer21,
     },
     {
       id: 2,
@@ -222,7 +222,7 @@ export const questions = [
       subText:
         "Это верное решение. Но не забывайте, что вместе с контролем важно обсуждать финансовую грамотность и покупки в интернете",
       score: "2",
-      // svg: answer22,
+      svg: answer22,
     },
     {
       id: 3,
@@ -230,7 +230,7 @@ export const questions = [
       subText:
         "Здорово, что вы уже доверяете ребенку распоряжаться финансами! Но важно обсудить и напоминать ребенку о контроле за бюджетом",
       score: "3",
-      // svg: answer23,
+      svg: answer23,
     },
     {
       id: 4,
@@ -238,7 +238,7 @@ export const questions = [
       subText:
         "Какой уровень доверия! Не забывайте обсуждать с ребенком лимит трат на неделю, а еще лучше - заведите отдельный счет, поскольку даже подросток не всегда способен контролировать траты в сети",
       score: "0",
-      // svg: answer24,
+      svg: answer24,
     },
   ],
   [
