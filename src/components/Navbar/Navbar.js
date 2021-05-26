@@ -21,7 +21,13 @@ const Navbar = () => {
   });
 
   return (
-    <div className={scroll ? `${style.main} ${style.scrolled}` : `${style.main} ${style.notScrolled}`}>
+    <div
+      className={
+        scroll
+          ? `${style.main} ${style.scrolled}`
+          : `${style.main} ${style.notScrolled}`
+      }
+    >
       <div className={style.container}>
         <Link to="/">
           <div className={style.logoBrand}>

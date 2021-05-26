@@ -11,7 +11,7 @@
   transition: all 1s ease;
 }
 .scrolled {
-  background-color: rgb(2, 12, 17);
+  background-color: #020c1b;
 }
 .notScrolled {
   background-color: transparent;

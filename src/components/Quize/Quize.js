@@ -3,7 +3,6 @@ import style from "./Quize.module.css";
 import image from "../../assets/svg/bgQuize.svg";
 import img from "../../assets/img/Component2.png";
 import img2 from "../../assets/img/Component3.png";
-// import img3 from "../../assets/svg/salut.svg";
 import img4 from "../../assets/svg/defender.svg";
 import update from "../../assets/svg/update.svg";
 import fb from "../../assets/svg/Facebook.svg";
@@ -92,7 +91,6 @@ const Quize = () => {
                       className={style.question}
                       onClick={() => {
                         dispatch({ type: "SELECTED", payload: question });
-                        // changeSvg();
                       }}
                       onMouseEnter={() =>
                         dispatch({ type: "HOVER", payload: true })
@@ -132,7 +130,7 @@ const Quize = () => {
                   {state.clicked < 7 ? (
                     <h2>Следующий вопрос</h2>
                   ) : (
-                    <h2>Смотреть на сайте </h2>
+                    <h2 className={style.nextBtnBg}>Перейти к результам</h2>
                   )}
                 </div>
               </div>
