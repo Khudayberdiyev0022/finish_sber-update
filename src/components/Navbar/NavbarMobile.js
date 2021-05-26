@@ -32,8 +32,8 @@ const NavbarMobile = () => {
           </div>
         </div>
         {click && (
-          <div className={style.invisible} >
-            <div className={style.top} >
+          <div className={style.invisible}>
+            <div className={style.top}>
               <div
                 onClick={() => setClick(false)}
                 className={style.close}
@@ -46,18 +46,22 @@ const NavbarMobile = () => {
                 <a href="#article" onClick={() => setClick(false)}>
                   Статьи
                 </a>
-                <Link to="/useful" onClick={() => setClick(false)}>
+                <a href="/" onClick={() => setClick(false)}>
                   Полезные материалы
-                </Link>
+                </a>
               </div>
             </div>
             <div className={style.bottom} style={{ height: "40%" }}>
               <div className={style.buttons}>
                 <button className={style.buttonGreen}>
-                  <Link to="/salute" onClick={() => setClick(false)}>Пройти тест с ассистентами Салют</Link>
+                  <Link to="/salute" onClick={() => setClick(false)}>
+                    Пройти тест с ассистентами Салют
+                  </Link>
                 </button>
                 <button className={style.buttonBlack}>
-                  <a href="#test" onClick={() => setClick(false)}>Остаться на сайте и пройти тест</a>
+                  <a href="#test" onClick={() => setClick(false)}>
+                    Остаться на сайте и пройти тест
+                  </a>
                 </button>
               </div>
             </div>

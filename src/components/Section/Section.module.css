@@ -1,9 +1,8 @@
 .main {
   width: 100%;
   height: 100%;
-  padding-bottom: 86px;
-  background: url(../../assets/svg/bgSectionTop.svg) no-repeat;
-  background-size: cover;
+  /* background: url(../../assets/svg/bgSectionTop.svg) no-repeat; */
+  /* background-size: cover; */
   background-position: left;
 }
 .container {
@@ -15,7 +14,7 @@
 
 .top {
   /* width: 100%; */
- 
+
   display: flex;
   justify-content: space-between;
 }
@@ -31,7 +30,7 @@
   height: 326px;
   border-radius: 32px;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(300px);
+  /* backdrop-filter: blur(300px); */
 }
 .middle {
   position: relative;
@@ -39,14 +38,14 @@
   height: 496px;
   border-radius: 32px;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(300px);
+  /* backdrop-filter: blur(300px); */
 }
 .right {
   position: relative;
   height: 870px;
   max-width: 526px;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(300px);
+  /* backdrop-filter: blur(300px); */
   border-radius: 32px;
 }
 
@@ -55,7 +54,7 @@
   max-width: 1108px;
   height: 526px;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(300px);
+  /* backdrop-filter: blur(300px); */
   border-radius: 32px;
   margin-top: 56px;
   display: flex;
@@ -158,7 +157,7 @@
     max-width: 388px;
     height: 369px;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(300px);
+    /* backdrop-filter: blur(300px); */
     border-radius: 32px;
   }
   .main h2 {
@@ -278,9 +277,6 @@
   }
 }
 @media screen and (max-width: 620px) {
-  .main {
-    padding-bottom: 150px;
-  }
   .container {
     max-width: 327px;
   }

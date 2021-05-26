@@ -1,10 +1,10 @@
 .main {
   display: none;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .main {
     display: block;
-    width: 100%;
+    max-width: 768px;
     height: 74px;
     background-color: rgb(2, 12, 17);
     position: fixed;

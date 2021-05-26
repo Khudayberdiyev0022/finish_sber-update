@@ -1,4 +1,5 @@
 .main {
+  max-width: 1920px;
   width: 100%;
   padding-top: 74px;
   /* background-color: #000; */
@@ -41,9 +42,7 @@
   height: 56px;
   border-radius: 40px;
   flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 16px;
+  margin: 0px 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,25 +163,26 @@
 
 @media screen and (max-width: 650px) {
   .container h2 {
-    padding-top: 40px;
+    padding-top: 55px;
     font-size: 28px;
     line-height: 36px;
   }
   .container p {
-    width: 80%;
+    width: 70%;
     margin-top: 16px;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
+    line-height: 28px;
   }
   .iconSalute {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.buttons > button {
-  width: 327px;
-  height: 56px;
-}
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons > button {
+    width: 327px;
+    height: 56px;
+  }
   .buttons {
     padding-top: 24px;
     flex-direction: column;

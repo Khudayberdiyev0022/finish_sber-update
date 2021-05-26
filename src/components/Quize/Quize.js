@@ -1,9 +1,9 @@
-import React, { Fragment, useReducer, useState } from "react";
+import React, { Fragment, useReducer } from "react";
 import style from "./Quize.module.css";
 import image from "../../assets/svg/bgQuize.svg";
 import img from "../../assets/img/Component2.png";
 import img2 from "../../assets/img/Component3.png";
-import img3 from "../../assets/svg/salut.svg";
+// import img3 from "../../assets/svg/salut.svg";
 import img4 from "../../assets/svg/defender.svg";
 import update from "../../assets/svg/update.svg";
 import fb from "../../assets/svg/Facebook.svg";
@@ -12,7 +12,6 @@ import ok from "../../assets/svg/Odnoklassniki.svg";
 import iconEye from "../../assets/svg/iconEye.svg";
 import iconPrev from "./../../assets/svg/iconPrev.svg";
 import { questions } from "./QuestionList";
-import { Link } from "react-router-dom";
 
 const initialState = {
   mouseHover: false,
@@ -55,11 +54,9 @@ const reducer = (state, action) => {
 
 const Quize = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
-  const [resutSee, setResutSee] = useState(false);
 
   const reloadPage = () => {
     dispatch({ type: "RELOAD" });
-    setResutSee(false);
   };
   const questionRender = () => {
     return (
@@ -79,7 +76,7 @@ const Quize = () => {
         <div className={style.info}>
           <div className={style.questions}>
             {state.selected !== null && (
-              <div className={`${style.active} ${style.question}`}>
+              <div className={`${style.active} ${style.question1}`}>
                 <h3>{state.selected?.text}</h3>
               </div>
             )}
@@ -178,7 +175,9 @@ const Quize = () => {
               )}
               {state.allScore <= 21 && (
                 <Fragment>
-                  {state.allScore >= 14 && <h1>Вы настоящий киберзащитник!</h1>}
+                  {state.allScore >= 14 && (
+                    <h1>Вы - настоящий киберзащитник!</h1>
+                  )}
                 </Fragment>
               )}
 
@@ -196,7 +195,7 @@ const Quize = () => {
                   {state.allScore >= 7 && (
                     <p>
                       Вы знаете о правилах безопасности в сети и говорите о них
-                      с ребенком, но вам не хватает регулярности: порой, вы про
+                      с ребенком, но вам не хватает регулярности. Порой, вы про
                       них забываете, а ребенок не всегда готов делиться с вами
                       подробностями своей интернет-жизни.
                     </p>
@@ -238,34 +237,11 @@ const Quize = () => {
               </div>
             </div>
           </div>
-          <Link to="/">
-            <div className={style.reload} onClick={reloadPage}>
-              <img src={update} alt="update" />
-              <Link to="/">Пройти еще раз</Link>
-            </div>
-          </Link>
+          <div className={style.reload} onClick={reloadPage}>
+            <img src={update} alt="update" />
+            <a href="#test">Пройти еще раз</a>
+          </div>
         </div>
-      </div>
-    );
-  };
-  const lastSectionRender = () => {
-    return (
-      <div className={style.lastSection}>
-        <h1>
-          Ознакомьтесь с результатами теста и узнайте, насколько защищен ваш
-          ребенок
-        </h1>
-        <img src={img3} alt="salut" />
-        <div className={style.submit}>
-          <h2>Смотреть результаты в Салюте</h2>
-        </div>
-        <h3
-          href="#"
-          onClick={() => setResutSee(true)}
-          className={style.seeResult}
-        >
-          Смотреть <br /> на сайте
-        </h3>
       </div>
     );
   };
@@ -279,8 +255,7 @@ const Quize = () => {
           style={{ backgroundImage: `url(${image})` }}
         >
           {state.clicked < 8 && questionRender()}
-          {state.clicked > 7 && !resutSee && lastSectionRender()}
-          {resutSee && resultRender()}
+          {state.clicked >= 8 && resultRender()}
         </div>
       </div>
       <h2 className={style.headerBottom}>Статьи</h2>

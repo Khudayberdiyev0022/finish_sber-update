@@ -1,32 +1,32 @@
-import answer1 from "../../assets/svg/answer1.svg";
-import answer2 from "../../assets/svg/answer2.svg";
-import answer3 from "../../assets/svg/answer3.svg";
-import answer4 from "../../assets/svg/answer4.svg";
-import answer5 from "../../assets/svg/answer5.svg";
-import answer6 from "../../assets/svg/answer6.svg";
-import answer7 from "../../assets/svg/answer7.svg";
-import answer8 from "../../assets/svg/answer8.svg";
-import answer9 from "../../assets/svg/answer9.svg";
-import answer10 from "../../assets/svg/answer10.svg";
-import answer11 from "../../assets/svg/answer11.svg";
-import answer12 from "../../assets/svg/answer12.svg";
-import answer13 from "../../assets/svg/answer13.svg";
-import answer14 from "../../assets/svg/answer14.svg";
-import answer15 from "../../assets/svg/answer15.svg";
-import answer16 from "../../assets/svg/answer16.svg";
-import answer17 from "../../assets/svg/answer17.svg";
-import answer18 from "../../assets/svg/answer18.svg";
-import answer19 from "../../assets/svg/answer19.svg";
-import answer20 from "../../assets/svg/answer20.svg";
-import answer21 from "../../assets/svg/answer21.svg";
-import answer22 from "../../assets/svg/answer22.svg";
-import answer23 from "../../assets/svg/answer23.svg";
-import answer24 from "../../assets/svg/answer24.svg";
+import answer1 from "../../assets/img/answer1.png";
+import answer2 from "../../assets/img/answer2.png";
+import answer3 from "../../assets/img/answer3.png";
+import answer4 from "../../assets/img/answer4.png";
+import answer5 from "../../assets/img/answer5.png";
+import answer6 from "../../assets/img/answer6.png";
+import answer7 from "../../assets/img/answer7.png";
+import answer8 from "../../assets/img/answer8.png";
+import answer9 from "../../assets/img/answer9.png";
+import answer10 from "../../assets/img/answer10.png";
+import answer11 from "../../assets/img/answer11.png";
+import answer12 from "../../assets/img/answer12.png";
+import answer13 from "../../assets/img/answer13.png";
+import answer14 from "../../assets/img/answer14.png";
+import answer15 from "../../assets/img/answer15.png";
+import answer16 from "../../assets/img/answer16.png";
+import answer17 from "../../assets/img/answer17.png";
+import answer18 from "../../assets/img/answer18.png";
+import answer19 from "../../assets/img/answer19.png";
+import answer20 from "../../assets/img/answer20.png";
+import answer21 from "../../assets/img/answer21.png";
+import answer22 from "../../assets/img/answer22.png";
+import answer23 from "../../assets/img/answer23.png";
+import answer24 from "../../assets/img/answer24.png";
 
-// import answe25 from "../../assets/svg/answe25.svg";
-// import answer26 from "../../assets/svg/answer26.svg";
-// import answer27 from "../../assets/svg/answer27.svg";
-// import answer28 from "../../assets/svg/answer28.svg";
+// import answe25 from "../../assets/img/answe25.png";
+// import answer26 from "../../assets/img/answer26.png";
+// import answer27 from "../../assets/img/answer27.png";
+// import answer28 from "../../assets/img/answer28.png";
 
 export const questions = [
   [
@@ -44,7 +44,7 @@ export const questions = [
       id: 2,
       text: "Зачем? Он там только в игры играет",
       subText:
-        "В играх (особенно, сетевых) немало угроз: от незнакомцев, которые скрывают свои имена и возраст, до крупных покупок, которые маленький ребенок не может контролировать",
+        "В играх (особенно, сетевых) немало угроз: от незнакомцев, которые скрывают свое имя и возраст, до крупных покупок, которые маленький ребенок не может контролировать",
       score: "1",
       svg: answer2,
     },
@@ -52,7 +52,7 @@ export const questions = [
       id: 3,
       text: "Нет, он сам прекрасно понимает, что можно делать, а чего нельзя",
       subText:
-        "К сожалению, дети не всегда могут правильно оценивать риски и реагировать на опасность",
+        "К сожалению, дети не всегда могут правильно оценивать риски или замечать потенциальную опасность",
       score: "0",
       svg: answer3,
     },
@@ -60,7 +60,7 @@ export const questions = [
       id: 4,
       text: "Пока запрещаю пользоваться телефоном/компьютером без присутствия взрослых",
       subText:
-        "Возможно, до определенного возраста это правильная стратегия. Но запреты легко нарушить: взять телефон у друга или воспользоваться родительским компьютером без спроса. Лучше не только ограничивать доступ к гаджетам, но и учить ребенка правильному поведению в сети.",
+        "Возможно, до определенного возраста это правильная стратегия. Но такой запрет легко нарушить: взять телефон у друга или воспользоваться родительским компьютером без спроса. Лучше не столько ограничивать доступ к гаджетам, сколько учить ребенка правильному поведению в сети. ",
       score: "2",
       svg: answer4,
     },
@@ -71,7 +71,7 @@ export const questions = [
       answer: "А вы сами соблюдаете правила безопасности в сети?",
       text: "Нет, не вижу необходимости",
       subText:
-        "Интернет - часть нашей жизни. И, как и в жизни, здесь есть правила, которые важно соблюдать, чтобы обезопасить себя и ребенка.",
+        "Интернет - часть нашей жизни. Здесь есть правила, которые важно соблюдать, чтобы обезопасить себя и ребенка",
       score: "0",
       svg: answer5,
     },
@@ -79,7 +79,7 @@ export const questions = [
       id: 2,
       text: "Правила знаю, но не пользуюсь ими",
       subText:
-        "Порой, правила безопасности в сети кажутся нам слишком сложными: на самом деле, несколько простых шагов помогут вам защитить себя и ребенка от мошенников - разные пароли, отсутствие геометок, защита данных при передаче через сторонний wifi.",
+        "Порой, правила безопасности в сети кажутся нам слишком сложными. На самом деле, несколько простых шагов помогут вам защитить себя и ребенка от мошенников - разные пароли, отсутствие геометок, защита данных при передаче через сторонний wi-fi.",
       score: "1",
       svg: answer6,
     },
@@ -122,7 +122,7 @@ export const questions = [
       id: 3,
       text: "Проверяю поисковые запросы.",
       subText:
-        "Помните, что контроль невозможен без доверия. Ребенок должен понимать и знать о тех мерах, которые вы предпринимаете, чтобы защитить его.",
+        "Помните, что контроль невозможен без доверия. Ребенок должен понимать и знать о тех мерах, которые вы предпринимаете, чтобы защитить его от потенциальных угроз в онлайн-пространстве. ",
       score: "0",
       svg: answer11,
     },
@@ -141,13 +141,13 @@ export const questions = [
       answer: "У вашего ребенка открытые страницы в соцсетях?",
       text: "Да, ребенок хочет стать блогером",
       subText:
-        "Увлечение ребенка профессией блогера - это здорово! Но прежде чем вставать на этот путь, важно обсудить правила безопасности и риски при росте подписчиков (от мошенничества до буллинга).",
+        "Увлечение ребенка профессией блогера - это здорово! Но прежде чем вставать на этот путь, важно обсудить правила безопасности и риски при росте количества подписчиков (от мошенничества до буллинга).",
       score: "0",
       svg: answer13,
     },
     {
       id: 2,
-      text: "Страница открыта, но я контролирую контент и новых подписчиков",
+      text: "Страница открыта, но я контролирую контент и проверяю новых подписчиков",
       subText:
         "А вы знали, что сторис в инстаграме можно скрывать от определенных групп пользователей? А еще подростки нередко создают альтернативные аккаунты в соцсетях, о которых родители не знают. Поэтому здесь важен не жесткий контроль, а диалог между взрослым и ребенком, доверие и, конечно, обсуждение рисков в сети.",
       score: "1",
@@ -193,7 +193,7 @@ export const questions = [
       id: 3,
       text: "Нет, поэтому я контролирую его поведение в интернете",
       subText:
-        "Контроль - это важно, но чем старше становится ребенок, тем больше свободы он потребует в своей интернет-вселенной. Поэтому вместе с контролем не забывайте о теории.",
+        "Контроль - это важно, но чем старше становится ребенок, тем больше свободы он потребует в своей интернет-вселенной. Поэтому вместе с контролем не забывайте постепенно учить ребенка самостоятельно оценивать ситуацию.",
       score: "2",
       svg: answer19,
     },
@@ -263,7 +263,7 @@ export const questions = [
       id: 3,
       text: "Постараюсь его отвлечь",
       subText:
-        "Возможно, это поможет на время, но без поддержки взрослых у ребенка не получится не обращать внимание на постоянную травлю в сети.",
+        "Возможно, это поможет на время, но проблему травли одним только отвлечением не решить. Важно поддерживать ребенка и вместе искать выход из ситуации.",
       score: "2",
       // svg: answer27,
     },

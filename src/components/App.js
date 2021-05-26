@@ -9,20 +9,18 @@ import Section from "./Section/Section";
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Navbar />
-        <NavbarMobile />
-        <Header />
-        <HeaderPictures />
-        <Switch>
-          <Route path="/">
-            <Quize />
-          </Route>
-        </Switch>
-        <Section />
-      </Router>
-    </div>
+    <Router>
+      <Navbar />
+      <NavbarMobile />
+      <Header />
+      <HeaderPictures />
+      <Switch>
+        <Route path="/">
+          <Quize />
+        </Route>
+      </Switch>
+      <Section />
+    </Router>
   );
 }
 

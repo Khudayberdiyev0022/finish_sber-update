@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: SBSansText, sans-serif !important;
+}
+
+#root {
+  background: url(./image/1440.svg) no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+  width: 100%;
+  max-height: 4571px;
+  height: 100%;
+  margin: auto;
+}
+/* @media screen and (max-width: 1440px) {
+  #root {
+    background: url(./image/1440.svg) no-repeat;
+    max-width: 1440px;
+    max-height: 4571px;
+    height: 100%;
+    background-size: cover;
+    background-position-y: 173px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #root {
+    background: url(./image/1024.svg) no-repeat;
+    max-width: 1024px;
+    max-height: 3467px;
+    height: 100%;
+    background-size: cover;
+    background-position-y: -106px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #root {
+    background: url(./image/768.svg) no-repeat;
+    max-width: 768px;
+    max-height: 3868px;
+    height: 100%;
+    background-size: cover;
+    background-position-y: -133px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #root {
+    background: url(./image/375.svg) no-repeat;
+    background-position-y: 0px;
+    max-width: 735px;
+    max-height: 3868px;
+    height: 100%;
+    background-size: cover;
+  }
+} */
