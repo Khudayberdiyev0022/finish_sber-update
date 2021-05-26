@@ -129,7 +129,11 @@ const Quize = () => {
                   className={style.button1}
                   onClick={() => dispatch({ type: "CLICKED", payload: 1 })}
                 >
-                  <h2>Следующий вопрос</h2>
+                  {state.clicked < 7 ? (
+                    <h2>Следующий вопрос</h2>
+                  ) : (
+                    <h2>Смотреть на сайте </h2>
+                  )}
                 </div>
               </div>
             )}
