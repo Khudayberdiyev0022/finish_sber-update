@@ -20,7 +20,9 @@ const Header = () => {
         </div>
         <div className={style.buttons}>
           <button className={style.buttonGreen}>
-            <Link to="/salute">Пройти тест с ассистентами Салют</Link>
+            <a href="http://sberbank.ru/sms/vadzd-website" target="__blank">
+              Пройти тест с ассистентами Салют
+            </a>
           </button>
           <button className={style.buttonBlack}>
             <a href="#test">Остаться на сайте и пройти тест</a>

@@ -10,12 +10,24 @@ function Page404() {
       </h1>
       <h5>Поддерживаемые браузеры</h5>
       <div className={style.links}>
-        <a href="https://google.com">Chrome,</a>
-        <a href="https://safari.com">Safari,</a>
-        <a href="https://yandex.ru">Yandex,</a>
-        <a href="https://mozilla.org">Firefox,</a>
-        <a href="https://microsoft.com">Edge,</a>
-        <a href="https://opera.com">Opera.</a>
+        <a href="https://google.com" target="__blank">
+          Chrome,
+        </a>
+        <a href="https://safari.com" target="__blank">
+          Safari,
+        </a>
+        <a href="https://yandex.ru" target="__blank">
+          Yandex,
+        </a>
+        <a href="https://mozilla.org" target="__blank">
+          Firefox,
+        </a>
+        <a href="https://microsoft.com" target="__blank">
+          Edge,
+        </a>
+        <a href="https://opera.com" target="__blank">
+          Opera.
+        </a>
       </div>
     </div>
   );

@@ -54,9 +54,13 @@ const NavbarMobile = () => {
             <div className={style.bottom} style={{ height: "40%" }}>
               <div className={style.buttons}>
                 <button className={style.buttonGreen}>
-                  <Link to="/salute" onClick={() => setClick(false)}>
+                  <a
+                    href="http://sberbank.ru/sms/vadzd-website"
+                    target="__blank"
+                    onClick={() => setClick(false)}
+                  >
                     Пройти тест с ассистентами Салют
-                  </Link>
+                  </a>
                 </button>
                 <button className={style.buttonBlack}>
                   <a href="#test" onClick={() => setClick(false)}>
