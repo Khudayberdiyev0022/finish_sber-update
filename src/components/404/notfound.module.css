@@ -11,35 +11,22 @@
 .main h1 {
   width: 955px;
   margin: auto;
-  font-family: SB Sans Display;
   font-style: normal;
   font-weight: 100;
   font-size: 56px;
   line-height: 66px;
-  /* or 118% */
   margin-bottom: 40px;
   margin-top: 0px;
-
   text-align: center;
-
-  /* Main/White */
-
   color: #ffffff;
 }
 .main h5 {
-  font-family: SB Sans Display;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  /* identical to box height, or 137% */
-
   text-align: center;
-
-  /* Main/White */
-
   color: #ffffff;
-
   opacity: 0.4;
 }
 .links {
@@ -51,17 +38,11 @@
 }
 .links a {
   text-decoration: none;
-  font-family: SB Sans Display;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
-  /* identical to box height, or 144% */
-
   text-align: center;
-
-  /* Main/White */
-
   color: #ffffff;
   margin: 0px 3px;
   margin-top: 16px;
@@ -70,35 +51,22 @@
   .main h1 {
     width: 80%;
     margin: auto;
-    font-family: SB Sans Display;
     font-style: normal;
     font-weight: 100;
     font-size: 42px;
     line-height: 66px;
-    /* or 118% */
     margin-bottom: 40px;
     margin-top: 0px;
-
     text-align: center;
-
-    /* Main/White */
-
     color: #ffffff;
   }
   .main h5 {
-    font-family: SB Sans Display;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    /* identical to box height, or 137% */
-
     text-align: center;
-
-    /* Main/White */
-
     color: #ffffff;
-
     opacity: 0.4;
   }
   .links {
@@ -110,56 +78,36 @@
   }
   .links a {
     text-decoration: none;
-    font-family: SB Sans Display;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-    /* identical to box height, or 144% */
-
     text-align: center;
-
-    /* Main/White */
-
     color: #ffffff;
     margin: 0px 3px;
     margin-top: 16px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .main h1 {
     width: 80%;
     margin: auto;
-    font-family: SB Sans Display;
     font-style: normal;
     font-weight: 100;
     font-size: 32px;
     line-height: 66px;
-    /* or 118% */
     margin-bottom: 40px;
     margin-top: 0px;
-
     text-align: center;
-
-    /* Main/White */
-
     color: #ffffff;
   }
   .main h5 {
-    font-family: SB Sans Display;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    /* identical to box height, or 137% */
-
     text-align: center;
-
-    /* Main/White */
-
     color: #ffffff;
-
     opacity: 0.4;
   }
   .links {
@@ -171,54 +119,35 @@
   }
   .links a {
     text-decoration: none;
-    font-family: SB Sans Display;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-    /* identical to box height, or 144% */
-
     text-align: center;
-
-    /* Main/White */
-
     color: #ffffff;
     margin: 0px 3px;
     margin-top: 16px;
   }
 }
-
 @media screen and (max-width: 475px) {
   .main h1 {
     width: 80%;
     margin: auto;
-    font-family: SB Sans Display;
     font-style: normal;
     font-weight: 100;
     font-size: 24px;
     line-height: 32px;
-    /* or 118% */
     margin-bottom: 40px;
     margin-top: 0px;
-
     text-align: center;
-
-    /* Main/White */
-
     color: #ffffff;
   }
   .main h5 {
-    font-family: SB Sans Display;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    /* identical to box height, or 137% */
-
     text-align: center;
-
-    /* Main/White */
-
     color: #ffffff;
 
     opacity: 0.4;
@@ -233,17 +162,11 @@
   }
   .links a {
     text-decoration: none;
-    font-family: SB Sans Display;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 26px;
-    /* identical to box height, or 144% */
-
     text-align: center;
-
-    /* Main/White */
-
     color: #ffffff;
     margin: 0px 3px;
     margin-top: 16px;
