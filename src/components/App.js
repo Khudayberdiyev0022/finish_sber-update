@@ -6,6 +6,7 @@ import Quize from "./Quize/Quize";
 import Header from "./Header/Header";
 import HeaderPictures from "./Header/HeaderPictures";
 import Section from "./Section/Section";
+import Page404 from "./404/404";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </Route>
       </Switch>
       <Section />
+      <Page404 />
     </Router>
   );
 }

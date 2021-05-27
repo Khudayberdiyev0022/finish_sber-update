@@ -117,6 +117,12 @@
   background: linear-gradient(270deg, #24e029 0%, #00b9ac 100%);
   opacity: 1;
 }
+.notActive {
+  background: linear-gradient(274.26deg, #cdd100 -1.28%, #61c200 86.96%);
+  opacity: 1;
+  /* background: linear-gradient(274.26deg, #CDD100 -1.28%, #61C200 86.96%);
+ */
+}
 
 .buttons > div {
   position: relative;

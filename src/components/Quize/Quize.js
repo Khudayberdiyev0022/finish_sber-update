@@ -75,7 +75,7 @@ const Quize = () => {
         <div className={style.info}>
           <div className={style.questions}>
             {state.selected !== null && (
-              <div className={`${style.active} ${style.question1}`}>
+              <div className={state.selected.score>1 ? `${style.active} ${style.question1}`: `${style.notActive} ${style.question1}`}>
                 <h3>{state.selected?.text}</h3>
               </div>
             )}
