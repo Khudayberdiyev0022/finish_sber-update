@@ -14,7 +14,7 @@ function Page404() {
         <a href="https://safari.com">Safari,</a>
         <a href="https://yandex.ru">Yandex,</a>
         <a href="https://mozilla.org">Firefox,</a>
-        <a href="https://edge.com">Edge,</a>
+        <a href="https://microsoft.com">Edge,</a>
         <a href="https://opera.com">Opera.</a>
       </div>
     </div>

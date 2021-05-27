@@ -120,8 +120,6 @@
 .notActive {
   background: linear-gradient(274.26deg, #cdd100 -1.28%, #61c200 86.96%);
   opacity: 1;
-  /* background: linear-gradient(274.26deg, #CDD100 -1.28%, #61C200 86.96%);
- */
 }
 
 .buttons > div {
