@@ -9,9 +9,8 @@ import Section from "./Section/Section";
 import Page404 from "./404/404";
 
 function App() {
-  {
-    var isIE = /*@cc_on!@*/ false || !!document.documentMode;
-  }
+  var isIE = /*@cc_on!@*/ false || !!document.documentMode;
+
   return (
     <Router>
       <Navbar />
