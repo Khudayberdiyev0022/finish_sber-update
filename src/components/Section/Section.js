@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Section() {
   return (
-    <div className={style.main} id="article">
+    <div className={style.main} >
       <div className={style.container}>
         <div className={style.top}>
           <div className={style.left}>

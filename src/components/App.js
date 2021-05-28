@@ -16,7 +16,15 @@ import Article5 from "./Articles/Article5";
 
 function App() {
   var isIE = /*@cc_on!@*/ false || !!document.documentMode;
-
+  // function ScrollToTop() {
+  //   const { pathname } = useLocation();
+  
+  //   useEffect(() => {
+  //     window.scrollTo(0, 0);
+  //   }, [pathname]);
+  
+  //   return null;
+  // }
   return (
     <Router>
       <Navbar />

@@ -266,7 +266,9 @@ const Quize = () => {
           {state.clicked >= 8 && resultRender()}
         </div>
       </div>
-      <h2 className={style.headerBottom}>Статьи</h2>
+      <h2 className={style.headerBottom} id="article">
+        Статьи
+      </h2>
     </div>
   );
 };
