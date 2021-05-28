@@ -58,7 +58,9 @@
 .image {
   width: 382px;
   height: 382px;
-  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   margin: auto;
   margin-top: 60px;
   border-radius: 32px;
@@ -67,8 +69,6 @@
   max-width: 526px;
 }
 .main h2 {
-  margin-top: 40px;
-  margin-left: 40px;
   font-size: 16px;
   font-weight: 100;
   color: rgba(255, 255, 255, 0.6);
@@ -80,9 +80,6 @@
   font-weight: 100;
   color: #fff;
 }
-.center h2 {
-  margin-top: 60px;
-}
 .see {
   position: absolute;
   width: 446px;
@@ -91,26 +88,6 @@
   margin: 0px 40px;
   bottom: 20px;
   align-items: center;
-}
-.eye {
-  display: flex;
-  width: 81px;
-  height: 32px;
-  border-radius: 20px;
-  background: rgba(239, 239, 239, 0.2);
-  color: #fff;
-  justify-content: center;
-  align-items: center;
-}
-.eye svg {
-  margin-right: 8px;
-}
-.eye h4 {
-  font-size: 16px;
-  margin: 0px;
-  padding: 0px;
-  font-weight: 100;
-  margin-left: 10px;
 }
 .next {
   width: 40px;
@@ -149,8 +126,6 @@
     border-radius: 32px;
   }
   .main h2 {
-    margin-top: 30px;
-    margin-left: 30px;
     font-size: 12px;
     font-weight: 100;
   }
@@ -175,9 +150,6 @@
   .content {
     max-width: 388px;
   }
-  .center h2 {
-    margin-top: 60px;
-  }
   .see {
     width: 318px;
     display: flex;
@@ -188,9 +160,6 @@
   }
   .center .image {
     margin-top: auto;
-  }
-  .eye h4 {
-    font-size: 12px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -210,8 +179,6 @@
     border-radius: 32px;
   }
   .main h2 {
-    margin-top: 20px;
-    margin-left: 20px;
     font-size: 10px;
     font-weight: 100;
   }
@@ -238,9 +205,6 @@
   .bottom {
     margin-top: 24px;
   }
-  .center h2 {
-    margin-top: 50px;
-  }
   .see {
     width: 252px;
     display: flex;
@@ -251,13 +215,6 @@
   }
   .center .image {
     margin-top: auto;
-  }
-  .eye {
-    width: 58px;
-    height: 22px;
-  }
-  .eye h4 {
-    font-size: 10px;
   }
   .next {
     width: 32px;
@@ -285,8 +242,6 @@
     margin: 8px 0px;
   }
   .main h2 {
-    margin-top: 20px;
-    margin-left: 20px;
     font-size: 10px;
     font-weight: 100;
   }
@@ -322,10 +277,6 @@
     flex-direction: column;
     align-items: center;
   }
-  .center h2 {
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
   .see {
     width: 288px;
     display: flex;
@@ -336,13 +287,6 @@
   .center .image {
     margin-top: 30px;
     margin-bottom: 0;
-  }
-  .eye {
-    width: 58px;
-    height: 22px;
-  }
-  .eye h4 {
-    font-size: 11px;
   }
   .next {
     width: 32px;
