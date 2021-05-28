@@ -16,8 +16,6 @@ const initialState = {
   mouseHover: false,
   selected: null,
   clicked: 1,
-  q1: false,
-  q2: false,
   allScore: 0,
 };
 const reducer = (state, action) => {
@@ -64,18 +62,20 @@ const Quize = () => {
         <h2>
           {state.clicked < 8 && state.clicked} <span>ИЗ 7 ШАГОВ</span>{" "}
         </h2>
-        <h1>
-          {state.selected
-            ? questions[state.clicked - 1][0].answer
-            : questions[state.clicked - 1][0].answer}
-        </h1>
+        <h1>{questions[state.clicked - 1][0].answer}</h1>
         <h1 className={style.mobileH1}>
-          {state.selected ? null : questions[state.clicked - 1][0].answer}
+          {!state.selected && questions[state.clicked - 1][0].answer}
         </h1>
         <div className={style.info}>
           <div className={style.questions}>
             {state.selected !== null && (
-              <div className={state.selected.score>1 ? `${style.active} ${style.question1}`: `${style.notActive} ${style.question1}`}>
+              <div
+                className={
+                  state.selected.score > 1
+                    ? `${style.active} ${style.question1}`
+                    : `${style.notActive} ${style.question1}`
+                }
+              >
                 <h3>{state.selected?.text}</h3>
               </div>
             )}

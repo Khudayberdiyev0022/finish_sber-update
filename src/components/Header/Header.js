@@ -1,7 +1,6 @@
 import React from "react";
 import style from "./Header.module.css";
 import iconSalute from "../../assets/svg/iconSalute.svg";
-// import { Link } from "react-router-dom";
 
 const Header = () => {
   return (

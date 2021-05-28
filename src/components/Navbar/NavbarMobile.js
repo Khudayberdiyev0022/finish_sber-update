@@ -4,7 +4,6 @@ import image from "../../assets/svg/logoBrand.svg";
 import logoStatusMobile from "../../assets/svg/logoStatusMobile.svg";
 import iconBurger from "../../assets/svg/iconBurger.svg";
 import iconClose from "../../assets/svg/iconClose.svg";
-import { Link } from "react-router-dom";
 
 const NavbarMobile = () => {
   const [click, setClick] = useState(false);
@@ -12,18 +11,18 @@ const NavbarMobile = () => {
     <div className={style.main}>
       <div className={style.container}>
         <div className={style.visible}>
-          <Link to="/">
+          <a href="/">
             <div
               className={style.logo}
               style={{ backgroundImage: `url(${image})` }}
             ></div>
-          </Link>
+          </a>
           <div style={{ display: "flex" }}>
-            <Link to="/">
+            <a href="/">
               <div className={style.status}>
                 <img src={logoStatusMobile} alt="logoStatusMobile" />
               </div>
-            </Link>
+            </a>
             <div
               onClick={() => setClick(true)}
               className={style.menu}

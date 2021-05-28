@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import NavbarMobile from "./Navbar/NavbarMobile";
 import Quize from "./Quize/Quize";
@@ -12,7 +11,7 @@ function App() {
   var isIE = /*@cc_on!@*/ false || !!document.documentMode;
 
   return (
-    <Router>
+    <Fragment>
       <Navbar />
       <NavbarMobile />
       {isIE ? (
@@ -21,15 +20,11 @@ function App() {
         <Fragment>
           <Header />
           <HeaderPictures />
-          <Switch>
-            <Route path="/">
-              <Quize />
-            </Route>
-          </Switch>
+          <Quize />
           <Section />
         </Fragment>
       )}
-    </Router>
+    </Fragment>
   );
 }
 
