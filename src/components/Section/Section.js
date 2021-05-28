@@ -3,6 +3,7 @@ import style from "./Section.module.css";
 import iconNext from "../../assets/svg/iconNext.svg";
 import Frame1 from "../../assets/img/Frame1.png";
 import Frame2 from "../../assets/img/Frame2.png";
+import { Link } from "react-router-dom";
 
 function Section() {
   return (
@@ -14,9 +15,11 @@ function Section() {
               <h1>Как безопасно совершать покупки в интернете</h1>
               <div className={style.see}>
                 <h2>20 июня 2020 </h2>
-                <div className={style.next}>
+               <Link to="/article1">
+               <div className={style.next}>
                   <img src={iconNext} alt="iconNext" />
                 </div>
+               </Link>
               </div>
             </div>
             <div className={style.middle}>
@@ -27,9 +30,11 @@ function Section() {
               </h1>
               <div className={style.see}>
                 <h2>20 июня 2020 </h2>
+                <Link to="/article2">
                 <div className={style.next}>
-                  <img src={iconNext} alt="" />
+                  <img src={iconNext} alt="iconNext" />
                 </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -44,9 +49,11 @@ function Section() {
             </h1>
             <div className={style.see}>
               <h2>20 июня 2020 </h2>
-              <div className={style.next}>
-                <img src={iconNext} alt="" />
+             <Link to="/article3">
+             <div className={style.next}>
+                <img src={iconNext} alt="iconNext" />
               </div>
+             </Link>
             </div>
           </div>
         </div>
@@ -62,9 +69,11 @@ function Section() {
             </h1>
             <div className={style.see}>
               <h2>20 июня 2020 </h2>
+              <Link to="/article4">
               <div className={style.next}>
-                <img src={iconNext} alt="" />
+                <img src={iconNext} alt="iconNext" />
               </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -76,18 +85,22 @@ function Section() {
             </h1>
             <div className={style.see}>
               <h2>20 июня 2020 </h2>
-              <div className={style.next}>
-                <img src={iconNext} alt="" />
-              </div>
+              <Link to="/article5">
+                <div className={style.next}>
+                  <img src={iconNext} alt="iconNext" />
+                </div>
+              </Link>
             </div>
           </div>
           <div className={style.small}>
             <h1>Как уберечь ребенка от вредного и опасного контента в сети</h1>
             <div className={style.see}>
               <h2>20 июня 2020 </h2>
+              <Link to="/article6">
               <div className={style.next}>
-                <img src={iconNext} alt="" />
+                <img src={iconNext} alt="iconNext" />
               </div>
+              </Link>
             </div>
           </div>
         </div>
