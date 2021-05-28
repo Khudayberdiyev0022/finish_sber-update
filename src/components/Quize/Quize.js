@@ -229,13 +229,19 @@ const Quize = () => {
           <div className={style.iconsGroup}>
             <div className={style.icons}>
               <div className={style.fb}>
-                <img src={fb} alt="fb" />
+                <a href="https://www.facebook.com/" target="__blank">
+                  <img src={fb} alt="fb" />
+                </a>
               </div>
               <div className={style.vk}>
-                <img src={vk} alt="vk" />
+                <a href="https://vk.com/" target="__blank">
+                  <img src={vk} alt="vk" />
+                </a>
               </div>
               <div className={style.ok}>
-                <img src={ok} alt="ok" />
+                <a href="https://ok.ru/" target="__blank">
+                  <img src={ok} alt="ok" />
+                </a>
               </div>
             </div>
           </div>
