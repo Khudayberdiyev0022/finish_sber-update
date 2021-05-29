@@ -1,18 +1,26 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import style from "./Article.module.css";
 import { cyber } from "./ArticlesList";
+import prevArticles from "../../assets/svg/prevArticles.svg"
+
 
 const Article4 = () => {
   const data = cyber[3];
   return (
     <div className={style.main}>
       <div className={style.top}>
-        {/* <Link to="/">Back</Link> */}
+      <div className={style.backArticle}>
+          <Link to="/">
+          <img src={prevArticles} alt="prevArticles" />
+          <p>Назад</p>
+          </Link>
+        </div>
         <img src={data.img} alt="rasm" />
         <h1>{data.title}</h1>
       </div>
-      <div className={style.container}>
+     <div className={style.bgContainer}>
+     <div className={style.container}>
         <p>{data.pargraph}</p>
         <h1>{data.h1}</h1>
         <p>{data.p}</p>
@@ -45,6 +53,7 @@ const Article4 = () => {
         <p>{data.footer1}</p>
         <p>{data.footer2}</p>
       </div>
+     </div>
     </div>
   );
 };

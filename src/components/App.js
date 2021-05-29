@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavbarMobile from "./Navbar/NavbarMobile";
@@ -13,20 +15,13 @@ import Article3 from "./Articles/Article3";
 import Article6 from "./Articles/Article6";
 import Article4 from "./Articles/Article4";
 import Article5 from "./Articles/Article5";
+import Footer from "./Footer/Footer";
 
 function App() {
   var isIE = /*@cc_on!@*/ false || !!document.documentMode;
-  // function ScrollToTop() {
-  //   const { pathname } = useLocation();
-  
-  //   useEffect(() => {
-  //     window.scrollTo(0, 0);
-  //   }, [pathname]);
-  
-  //   return null;
-  // }
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <NavbarMobile />
       {isIE ? (
@@ -62,8 +57,19 @@ function App() {
           </Switch>
         </Fragment>
       )}
+      <Footer />
     </Router>
   );
 }
 
 export default App;
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}

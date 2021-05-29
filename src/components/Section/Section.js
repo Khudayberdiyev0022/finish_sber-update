@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Section() {
   return (
-    <div className={style.main} >
+    <div className={style.main}>
       <div className={style.container}>
         <div className={style.top}>
           <div className={style.left}>
@@ -15,25 +15,24 @@ function Section() {
               <h1>Как безопасно совершать покупки в интернете</h1>
               <div className={style.see}>
                 <h2>20 июня 2020 </h2>
-               <Link to="/article1">
-               <div className={style.next}>
-                  <img src={iconNext} alt="iconNext" />
-                </div>
-               </Link>
+                <Link to="/article1">
+                  <div className={style.next}>
+                    <img src={iconNext} alt="iconNext" />
+                  </div>
+                </Link>
               </div>
             </div>
             <div className={style.middle}>
               <h1>
-                Какие правила поведения в сети стоит ввести у себя в семье, как
-                наладить доверие, избежать детских истерик и родительского
-                гиперконтроля
+                Приложения и программы для родителей и детей, которые помогут
+                защитить ребенка в сети
               </h1>
               <div className={style.see}>
                 <h2>20 июня 2020 </h2>
                 <Link to="/article2">
-                <div className={style.next}>
-                  <img src={iconNext} alt="iconNext" />
-                </div>
+                  <div className={style.next}>
+                    <img src={iconNext} alt="iconNext" />
+                  </div>
                 </Link>
               </div>
             </div>
@@ -49,11 +48,11 @@ function Section() {
             </h1>
             <div className={style.see}>
               <h2>20 июня 2020 </h2>
-             <Link to="/article3">
-             <div className={style.next}>
-                <img src={iconNext} alt="iconNext" />
-              </div>
-             </Link>
+              <Link to="/article3">
+                <div className={style.next}>
+                  <img src={iconNext} alt="iconNext" />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -64,15 +63,16 @@ function Section() {
           ></div>
           <div className={style.content}>
             <h1>
-              Приложения и программы для родителей и детей, которые помогут
-              защитить ребенка в сети
+              Какие правила поведения в сети стоит ввести у себя в семье, как
+              наладить доверие, избежать детских истерик и родительского
+              гиперконтроля
             </h1>
             <div className={style.see}>
               <h2>20 июня 2020 </h2>
               <Link to="/article4">
-              <div className={style.next}>
-                <img src={iconNext} alt="iconNext" />
-              </div>
+                <div className={style.next}>
+                  <img src={iconNext} alt="iconNext" />
+                </div>
               </Link>
             </div>
           </div>
@@ -97,9 +97,9 @@ function Section() {
             <div className={style.see}>
               <h2>20 июня 2020 </h2>
               <Link to="/article6">
-              <div className={style.next}>
-                <img src={iconNext} alt="iconNext" />
-              </div>
+                <div className={style.next}>
+                  <img src={iconNext} alt="iconNext" />
+                </div>
               </Link>
             </div>
           </div>
