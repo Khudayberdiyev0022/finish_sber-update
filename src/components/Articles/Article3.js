@@ -5,7 +5,7 @@ import { cyber } from "./ArticlesList";
 import prevArticles from "../../assets/svg/prevArticles.svg";
 
 const Article3 = () => {
-  const data = cyber[0];
+  const data = cyber[2];
   return (
     <div className={style.main}>
       <div className={style.top}>
@@ -15,12 +15,11 @@ const Article3 = () => {
             <p>Назад</p>
           </Link>
         </div>
-        <img src={data.img} alt="svg" />
+        <img src={data.img} alt="png" />
         <h1>{data.title}</h1>
       </div>
       <div className={style.bgContainer}>
         <div className={style.container}>
-          <h2>{data.titleParagraph}</h2>
           <p>{data.pargraph}</p>
           <h1>{data.h1}</h1>
           <p>{data.p}</p>
@@ -55,9 +54,9 @@ const Article3 = () => {
             <li>{data.numberText5list7}</li>
             <li>{data.numberText5list8}</li>
           </ul>
-        
+         
         </div>
-         <div className={style.footerArticle}>
+        <div className={style.footerArticle}>
           <p>
             В приложении «Сбербанк Онлайн» вы можете больше узнать о
             кибербезопасности, цифровой грамотности и родительстве. Для этого

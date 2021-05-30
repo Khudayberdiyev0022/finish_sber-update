@@ -60,7 +60,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  width: 80%;
+  width: 70%;
   margin: auto;
   padding-bottom: 48px;
 }
@@ -118,14 +118,6 @@
   font-size: 18px;
   line-height: 26px;
   margin-bottom: 16px;
-}
-.container ul li::before {
-  content: "\2022";
-  color: lightgreen;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 .container ul li::before {
   content: "\2022";

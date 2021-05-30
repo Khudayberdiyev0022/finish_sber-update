@@ -15,12 +15,11 @@ const Article4 = () => {
             <p>Назад</p>
           </Link>
         </div>
-        <img src={data.img} alt="svg" />
+        <img src={data.img} alt="png" />
         <h1>{data.title}</h1>
       </div>
       <div className={style.bgContainer}>
         <div className={style.container}>
-          <h2>{data.titleParagraph}</h2>
           <p>{data.pargraph}</p>
           <p>{data.paragraph2}</p>
           <h1>{data.h1}</h1>
@@ -52,7 +51,7 @@ const Article4 = () => {
           </ul>
           <h2>{data.number5}</h2>
           <p className={style.pargraph}>{data.numberText5}</p>
-
+        
         </div>
         <div className={style.footerArticle}>
           <p>

@@ -5,7 +5,7 @@ import { cyber } from "./ArticlesList";
 import prevArticles from "../../assets/svg/prevArticles.svg";
 
 const Article1 = () => {
-  const data = cyber[2];
+  const data = cyber[0];
   return (
     <div className={style.main}>
       <div className={style.top}>
@@ -15,12 +15,11 @@ const Article1 = () => {
             <p>Назад</p>
           </Link>
         </div>
-        <img src={data.img} alt="svg" />
+        <img src={data.img} alt="png" />
         <h1>{data.title}</h1>
       </div>
       <div className={style.bgContainer}>
         <div className={style.container}>
-          <h2>{data.titleParagraph}</h2>
           <p>{data.pargraph}</p>
           <h1>{data.h1}</h1>
           <p>{data.p}</p>
@@ -50,6 +49,7 @@ const Article1 = () => {
           <p className={style.pargraph}>{data.numberText6}</p>
           <h2>{data.number7}</h2>
           <p className={style.pargraph}>{data.numberText7}</p>
+         
         </div>
         <div className={style.footerArticle}>
           <p>
@@ -63,7 +63,8 @@ const Article1 = () => {
             >
               «Осторожно, мошенники!»
             </a>
-            , {/* <br/> */}
+            ,{" "}
+            {/* <br/> */}
             <a
               href="https://www.sberbank.ru/dl/jc/index.html?linkname=fraud"
               target="__blank"

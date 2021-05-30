@@ -6,7 +6,7 @@ import prevArticles from "../../assets/svg/prevArticles.svg"
 
 
 const Article2 = () => {
-  const data = cyber[5];
+  const data = cyber[1];
   return (
     <div className={style.main}>
       <div className={style.top}>
@@ -16,12 +16,11 @@ const Article2 = () => {
           <p>Назад</p>
           </Link>
         </div>
-        <img src={data.img} alt="svg" />
+        <img src={data.img} alt="png" />
         <h1>{data.title}</h1>
       </div>
      <div className={style.bgContainer}>
      <div className={style.container}>
-       <h2>{data.titleParagraph}</h2>
         <p>{data.pargraph}</p>
         <p>{data.pargraph1}</p>
         <p>{data.pargraph2}</p>
@@ -58,7 +57,6 @@ const Article2 = () => {
         <p className={style.pargraph}>{data.numberText5Two}</p>
         <p className={style.pargraph}>{data.numberText5Three}</p>
 
-       
       </div>
       <div className={style.footerArticle}>
           <p>

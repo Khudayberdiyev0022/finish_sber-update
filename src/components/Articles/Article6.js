@@ -5,7 +5,7 @@ import { cyber } from "./ArticlesList";
 import prevArticles from "../../assets/svg/prevArticles.svg";
 
 const Article6 = () => {
-  const data = cyber[1];
+  const data = cyber[5];
   return (
     <div className={style.main}>
       <div className={style.top}>
@@ -15,12 +15,11 @@ const Article6 = () => {
             <p>Назад</p>
           </Link>
         </div>
-        <img src={data.img} alt="svg" />
+        <img src={data.img} alt="png" />
         <h1>{data.title}</h1>
       </div>
       <div className={style.bgContainer}>
         <div className={style.container}>
-          <h2>{data.titleParagraph}</h2>
           <p>{data.pargraph}</p>
           <h1>{data.h1}</h1>
           <p>{data.p}</p>
@@ -59,7 +58,7 @@ const Article6 = () => {
           <h2>{data.number2}</h2>
           <p className={style.pargraph}>{data.numberText2}</p>
           <p className={style.pargraph}>{data.numberText2Two}</p>
-      
+         
         </div>
         <div className={style.footerArticle}>
           <p>
