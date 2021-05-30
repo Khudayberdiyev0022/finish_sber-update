@@ -31,24 +31,18 @@ const Article3 = () => {
           <p>{data.p6}</p>
           <p>{data.p7}</p>
           <p>{data.p8}</p>
-
           <p className={style.italic}>{data.italic}</p>
           <h1>{data.h2}</h1>
-
           <h2>{data.number1}</h2>
           <p className={style.pargraph}>{data.numberText1}</p>
-
           <h2>{data.number2}</h2>
           <p className={style.pargraph}>{data.numberText2}</p>
-
           <h2>{data.number3}</h2>
           <p className={style.pargraph}>{data.numberText3}</p>
-
           <h2>{data.number4}</h2>
           <p className={style.pargraph}>{data.numberText4}</p>
           <p className={style.pargraph}>{data.numberText4One}</p>
           <p className={style.pargraph}>{data.numberText4Two}</p>
-
           <h2>{data.number5}</h2>
           <ul>
             <li>{data.numberText5list1}</li>
@@ -60,7 +54,6 @@ const Article3 = () => {
             <li>{data.numberText5list7}</li>
             <li>{data.numberText5list8}</li>
           </ul>
-
           <p>{data.footer}</p>
         </div>
       </div>

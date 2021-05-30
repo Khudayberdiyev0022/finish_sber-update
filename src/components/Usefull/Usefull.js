@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Usefull.module.css";
 import img from "../../assets/svg/download.svg";
 import sber from "../../assets/sber.pdf";
+
 const Usefull = () => {
   const data = [
     {
@@ -36,7 +37,12 @@ const Usefull = () => {
               </div>
               <div className={style.bottom}>
                 <h4>{item.mb} Mb</h4>
-                <a href={item.pdf} className={style.image} rel="noreferrer" download >
+                <a
+                  href={item.pdf}
+                  className={style.image}
+                  rel="noreferrer"
+                  download
+                >
                   <img src={img} alt="svg" />
                 </a>
               </div>

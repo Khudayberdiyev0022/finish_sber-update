@@ -1,7 +1,6 @@
 .main {
   width: 100%;
   height: 100%;
-  /* padding-bottom: 130px; */
   padding-top: 104px;
 }
 .container {
@@ -34,11 +33,8 @@
   flex-direction: row;
   align-items: flex-start;
   padding: 6px 24px;
-
-  /* width: 160px; */
   height: 42px;
   margin: 8px;
-
   background: rgba(65, 73, 84, 0.32);
   border-radius: 20px;
   cursor: pointer;
@@ -48,16 +44,8 @@
   font-weight: 100;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 187% */
-
-  /* Main/White */
-
   color: #ffffff;
-
   opacity: 0.4;
-
-  /* Inside Auto Layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -71,14 +59,11 @@
   font-weight: 100;
   font-size: 16px;
   line-height: 30px;
-  /* text-align: center; */
   background: -webkit-linear-gradient(270deg, #24e029 0%, #00b9ac 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 1;
 }
-/* background: linear-gradient(270deg, #24E029 0%, #00B9AC 100%);
- */
 .content {
   width: 100%;
   display: flex;
@@ -112,10 +97,6 @@
   font-weight: 300;
   font-size: 32px;
   line-height: 42px;
-  /* or 131% */
-
-  /* Main/White */
-
   color: #ffffff;
   margin-bottom: 32px;
 }
@@ -124,16 +105,8 @@
   font-weight: 100;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
-  /* Main/White */
-
   color: #ffffff;
   margin: 16px 0px;
-  /* or 150% */
-
-  /* Main/White */
-
   color: #ffffff;
   margin-right: 64px;
 }
@@ -176,7 +149,6 @@
 @media screen and (max-width: 860px) {
   .container {
     width: 616px;
-    /* width: 608px; */
     margin: auto;
   }
   .image {
@@ -194,19 +166,16 @@
   }
   .buttons {
     width: 100%;
-    /* justify-content: safe; */
   }
   .main .active h3 {
     font-size: 12px;
   }
   .button {
     padding: 8px 20px;
-
     border-radius: 20px;
   }
   .button h3 {
     font-size: 12px;
-    /* line-height: 20px; */
   }
   .text {
     width: 100%;

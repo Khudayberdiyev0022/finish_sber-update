@@ -10,7 +10,6 @@
   width: 80%;
   padding: 28px 0px;
   margin: auto;
-  /* height: 100%; */
 }
 .blogs {
   display: flex;
@@ -22,10 +21,6 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  /* or 167% */
-
-  /* Main/White */
-
   color: #ffffff;
   margin: 8px 0px;
 }
@@ -34,10 +29,6 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 20px;
-  /* or 167% */
-
-  /* Main/White */
-
   color: #ffffff;
   margin: 4px 0px;
   opacity: 0.5;
@@ -47,12 +38,7 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 18px;
-  /* or 150% */
-
-  /* Main/White */
-
   color: #ffffff;
-  /* text-align: center; */
   margin-top: 40px;
 }
 @media screen and (max-width: 800px) {

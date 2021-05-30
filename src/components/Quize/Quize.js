@@ -48,7 +48,6 @@ const reducer = (state, action) => {
       return state;
   }
 };
-
 const Quize = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -159,7 +158,6 @@ const Quize = () => {
       </div>
     );
   };
-
   const resultRender = () => {
     return (
       <div className={style.mainResult}>
@@ -182,7 +180,6 @@ const Quize = () => {
                   )}
                 </Fragment>
               )}
-
               {state.allScore < 7 && (
                 <p>
                   Кажется, вы не обсуждали с ребенком правила безопасности в

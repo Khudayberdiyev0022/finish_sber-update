@@ -17,7 +17,6 @@ const Navbar = () => {
       clearInterval(interval);
     };
   });
-
   return (
     <div
       className={
