@@ -1,9 +1,10 @@
 .bg {
   margin-top: 74px;
   max-width: 1918px;
-  height: 1024px;
+  height: 955px;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-bottom: 150px;
 }
 .bg img {
   width: 100%;

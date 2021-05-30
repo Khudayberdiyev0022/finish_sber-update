@@ -237,6 +237,7 @@
   }
   .middle {
     max-width: 327px;
+    height: 178px;
     border-radius: 32px;
     margin: 8px 0px;
   }
