@@ -15,11 +15,12 @@ const Article4 = () => {
             <p>Назад</p>
           </Link>
         </div>
-        <img src={data.img} alt="rasm" />
+        <img src={data.img} alt="svg" />
         <h1>{data.title}</h1>
       </div>
       <div className={style.bgContainer}>
         <div className={style.container}>
+          <h2>{data.titleParagraph}</h2>
           <p>{data.pargraph}</p>
           <p>{data.paragraph2}</p>
           <h1>{data.h1}</h1>
@@ -51,7 +52,38 @@ const Article4 = () => {
           </ul>
           <h2>{data.number5}</h2>
           <p className={style.pargraph}>{data.numberText5}</p>
-          <p>{data.footer1}</p>
+
+        </div>
+        <div className={style.footerArticle}>
+          <p>
+            В приложении «Сбербанк Онлайн» вы можете больше узнать о
+            кибербезопасности, цифровой грамотности и родительстве. Для этого
+            эксперты разработали каналы, которые легко найти по названию через
+            поиск:{" "}
+            <a
+              href="https://www.sberbank.ru/dl/jc/index.html?linkname=fraud"
+              target="__blank"
+            >
+              «Осторожно, мошенники!»
+            </a>
+            ,{" "}
+            {/* <br/> */}
+            <a
+              href="https://www.sberbank.ru/dl/jc/index.html?linkname=fraud"
+              target="__blank"
+            >
+              «Ничего личного»
+            </a>{" "}
+            и{" "}
+            <a
+              href="https://www.sberbank.ru/dl/jc/index.html?linkname=fraud"
+              target="__blank"
+            >
+              «Счастливый родитель»
+            </a>
+            . В каждом канале — полезные статьи и видео, которые помогут быстро
+            узнать ответы на вопросы, которые волнуют всех родителей.
+          </p>
         </div>
       </div>
     </div>

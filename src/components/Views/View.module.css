@@ -21,7 +21,7 @@
   padding-bottom: 40px;
 }
 .buttons {
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -218,6 +218,7 @@
     justify-content: end;
   }
   .buttons {
+    /* max-width: 327px; */
     margin-bottom: 36px;
   }
   .button {

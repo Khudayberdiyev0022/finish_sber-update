@@ -45,6 +45,9 @@ const NavbarMobile = () => {
                 <a href="#article" onClick={() => setClick(false)}>
                   Статьи
                 </a>
+                <a href="#cyber" onClick={() => setClick(false)}>
+                Виды киберугроз
+                </a>
                 <a href="/" onClick={() => setClick(false)}>
                   Полезные материалы
                 </a>

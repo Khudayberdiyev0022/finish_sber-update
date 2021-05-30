@@ -34,6 +34,7 @@ const Navbar = () => {
         <div className={style.content}>
           <a href="/#test">Тест</a>
           <a href="/#article">Статьи</a>
+          <a href="/#cyber">Виды киберугроз</a>
           <a href="/">Полезные материалы</a>
         </div>
         <a href="/">

@@ -169,12 +169,12 @@
     max-width: 292px;
   }
   .small {
-    height: 178px;
+    height: 206px;
     max-width: 292px;
   }
   .middle {
     max-width: 292px;
-    height: 306px;
+    height: 278px;
     border-radius: 32px;
   }
   .main h2 {
@@ -182,8 +182,7 @@
     font-weight: 100;
   }
   .main h1 {
-    margin: 20px;
-    margin-top: 10px;
+    margin: 24px;
     font-size: 18px;
     font-weight: 300;
   }
@@ -209,9 +208,9 @@
     display: flex;
     justify-content: space-between;
     margin: 0px 20px;
-    bottom: 5px;
     align-items: center;
   }
+
   .center .image {
     margin-top: auto;
   }
@@ -287,6 +286,7 @@
     align-items: center;
     margin-bottom: 24px;
   }
+  
   .center .image {
     margin-top: 40px;
     margin-bottom: 40px;

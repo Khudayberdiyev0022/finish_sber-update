@@ -6,8 +6,8 @@ function View() {
   const [numberOfData, setNumberOfData] = useState(0);
   return (
     <div className={style.main}>
-      <div className={style.container}>
-        <h2>Виды киберугроз</h2>
+      <div className={style.container} >
+        <h2 id="cyber">Виды киберугроз</h2>
         <div className={style.buttons}>
           {data.map((item) => (
             <div

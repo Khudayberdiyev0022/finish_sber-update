@@ -12,9 +12,12 @@ function Section() {
         <div className={style.top}>
           <div className={style.left}>
             <div className={style.small}>
-              <h1>Как безопасно совершать покупки в интернете</h1>
+              <h1>
+                Номер школы и геолокация: какие данные нельзя выкладывать в
+                интернет
+              </h1>
               <div className={style.see}>
-                <h2>20 июня 2020 </h2>
+                <h2>2 июня 2020 </h2>
                 <Link to="/article1">
                   <div className={style.next}>
                     <img src={iconNext} alt="iconNext" />
@@ -24,11 +27,11 @@ function Section() {
             </div>
             <div className={style.middle}>
               <h1>
-                Приложения и программы для родителей и детей, которые помогут
-                защитить ребенка в сети
+                Онлайн-шопинг без угроз: 8 правил безопасности для тех, кто
+                покупает в интернете
               </h1>
               <div className={style.see}>
-                <h2>20 июня 2020 </h2>
+                <h2>2 июня 2020 </h2>
                 <Link to="/article2">
                   <div className={style.next}>
                     <img src={iconNext} alt="iconNext" />
@@ -43,11 +46,11 @@ function Section() {
               style={{ backgroundImage: `url(${Frame1})` }}
             ></div>
             <h1>
-              Какие данные лучше не раскрывать в интернете - статья о
-              приватности
+              Без конфликтов и запретов: 5 правил, которые помогут защитить
+              ребенка в интернете
             </h1>
             <div className={style.see}>
-              <h2>20 июня 2020 </h2>
+              <h2>2 июня 2020 </h2>
               <Link to="/article3">
                 <div className={style.next}>
                   <img src={iconNext} alt="iconNext" />
@@ -63,12 +66,11 @@ function Section() {
           ></div>
           <div className={style.content}>
             <h1>
-              Какие правила поведения в сети стоит ввести у себя в семье, как
-              наладить доверие, избежать детских истерик и родительского
-              гиперконтроля
+              Приложения и программы для родителей и детей, которые помогут
+              защитить ребенка в сети
             </h1>
             <div className={style.see}>
-              <h2>20 июня 2020 </h2>
+              <h2>2 июня 2020 </h2>
               <Link to="/article4">
                 <div className={style.next}>
                   <img src={iconNext} alt="iconNext" />
@@ -80,11 +82,11 @@ function Section() {
         <div className={style.bottom}>
           <div className={style.small}>
             <h1>
-              Как избежать кибербуллинга и как помочь своему ребенку, если это
-              все-таки случилось
+              Как избежать кибербуллинга и как помочь ребенку, если он стал
+              жертвой травли
             </h1>
             <div className={style.see}>
-              <h2>20 июня 2020 </h2>
+              <h2>2 июня 2020 </h2>
               <Link to="/article5">
                 <div className={style.next}>
                   <img src={iconNext} alt="iconNext" />
@@ -95,7 +97,7 @@ function Section() {
           <div className={style.small}>
             <h1>Как уберечь ребенка от вредного и опасного контента в сети</h1>
             <div className={style.see}>
-              <h2>20 июня 2020 </h2>
+              <h2>2 июня 2020 </h2>
               <Link to="/article6">
                 <div className={style.next}>
                   <img src={iconNext} alt="iconNext" />
