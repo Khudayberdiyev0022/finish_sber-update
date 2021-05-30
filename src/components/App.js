@@ -16,6 +16,8 @@ import Article6 from "./Articles/Article6";
 import Article4 from "./Articles/Article4";
 import Article5 from "./Articles/Article5";
 import Footer from "./Footer/Footer";
+import View from "./Views/View";
+import Usefull from "./Usefull/Usefull";
 
 function App() {
   var isIE = /*@cc_on!@*/ false || !!document.documentMode;
@@ -35,6 +37,8 @@ function App() {
               <Quize />
 
               <Section />
+              <View />
+              <Usefull />
             </Route>
             <Route path="/article1">
               <Article1 />

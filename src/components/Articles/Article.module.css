@@ -1,6 +1,7 @@
 .main {
   width: 100%;
   z-index: 10;
+  overflow-y: hidden;
 }
 .backArticle {
   width: 88px;
@@ -26,7 +27,6 @@
 .backArticle a img {
   width: 18px;
   height: 14px;
-
 }
 .backArticle a p {
   font-style: normal;
@@ -145,9 +145,9 @@
   .container {
     width: 70%;
   }
-.backArticle {
-  padding-left: 100px;
-}
+  .backArticle {
+    padding-left: 100px;
+  }
   .top {
     height: 507px;
     padding-top: 104px;

@@ -33,8 +33,8 @@ const Navbar = () => {
           </div>
         </a>
         <div className={style.content}>
-          <a href="#test">Тест</a>
-          <a href="#article">Статьи</a>
+          <a href="/#test">Тест</a>
+          <a href="/#article">Статьи</a>
           <a href="/">Полезные материалы</a>
         </div>
         <a href="/">
