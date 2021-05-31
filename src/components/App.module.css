@@ -16,7 +16,7 @@ body {
     background-image: url("../assets/image/1440.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: top;
+    background-position: 0 62px;
     overflow-x: hidden;
 }
 

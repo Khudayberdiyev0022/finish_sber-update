@@ -32,6 +32,7 @@ const NavbarMobile = () => {
         </div>
         {click && (
           <div className={style.invisible}>
+            <div className={style.bgInvisible} />
             <div className={style.top}>
               <div
                 onClick={() => setClick(false)}

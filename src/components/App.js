@@ -41,7 +41,7 @@ function App() {
 
                     <Section />
                     <View />
-                    <Usefull />
+                    {/*<Usefull />*/}
                   </Route>
                   <Route path="/article1">
                     <Article1 />
