@@ -1,6 +1,6 @@
 .main {
   width: 100%;
-  height: 500px;
+  margin-bottom: 160px;
 }
 .container {
   max-width: 1108px;
@@ -23,11 +23,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 301px;
 }
 .card {
-  height: 100%;
   width: 332px;
+  height: 301px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 32px;
   padding: 32px 24px 29px 24px;
@@ -47,7 +46,7 @@
 }
 .card h3 {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 200;
   font-size: 24px;
   line-height: 32px;
   color: #ffffff;
@@ -69,9 +68,13 @@
   align-items: center;
   cursor: pointer;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1439px) {
+  .main {
+    margin-bottom: 120px;
+  }
   .container {
-    width: 90%;
+    padding: 0 104px;
+    width: 100%;
     margin: auto;
   }
   .container > h2 {
@@ -90,21 +93,40 @@
     line-height: 28px;
   }
 }
-@media screen and (max-width: 798px) {
-  .main {
-    height: 750px;
+
+@media (max-width: 1023px) {
+  .container {
+    padding: 0 80px;
+  }
+  .cards {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .card:nth-child(n) {
+    margin: 0;
+    width: 292px;
+    height: 270px;
+  }
+  .card:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0;
   }
   .cards {
     flex-direction: column;
   }
   .card {
-    margin-bottom: 24px !important;
+    margin-bottom: 24px;
     width: 80%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .main {
-    height: 1000px;
+    margin-bottom: 96px;
   }
   .container {
     width: 90%;

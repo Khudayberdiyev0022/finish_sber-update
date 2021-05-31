@@ -27,9 +27,7 @@ const Navbar = () => {
     >
       <div className={style.container}>
         <a href="/">
-          <div className={style.logoBrand}>
-            <img src={logoBrand} alt="logoBrand" />
-          </div>
+          <img className={style.logoBrand} src={logoBrand} alt="logoBrand" />
         </a>
         <div className={style.content}>
           <a href="/#test">Тест</a>
@@ -38,9 +36,7 @@ const Navbar = () => {
           <a href="/">Полезные материалы</a>
         </div>
         <a href="/">
-          <div className={style.logoStatus}>
-            <img src={logoStatus} alt="logoStatus" />
-          </div>
+          <img className={style.logoStatus} src={logoStatus} alt="logoStatus" />
         </a>
       </div>
     </div>

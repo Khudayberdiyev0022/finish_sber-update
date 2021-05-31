@@ -1,4 +1,5 @@
 import React, { Fragment, useReducer } from "react";
+import share from '../../utils/share';
 import style from "./Quize.module.css";
 import image from "../../assets/svg/bgQuize.svg";
 import img from "../../assets/img/Component2.png";
@@ -225,20 +226,14 @@ const Quize = () => {
         <div className={style.iconsAll}>
           <div className={style.iconsGroup}>
             <div className={style.icons}>
-              <div className={style.fb}>
-                <a href="https://www.facebook.com/" target="__blank">
-                  <img src={fb} alt="fb" />
-                </a>
+              <div className={style.fb} onClick={() => share.facebook()}>
+                <img src={fb} alt="fb" />
               </div>
-              <div className={style.vk}>
-                <a href="https://vk.com/" target="__blank">
-                  <img src={vk} alt="vk" />
-                </a>
+              <div className={style.vk} onClick={() => share.vkontakte()}>
+                <img src={vk} alt="vk" />
               </div>
-              <div className={style.ok}>
-                <a href="https://ok.ru/" target="__blank">
-                  <img src={ok} alt="ok" />
-                </a>
+              <div className={style.ok} onClick={() => share.odnoklassniki()}>
+                <img src={ok} alt="ok" />
               </div>
             </div>
           </div>

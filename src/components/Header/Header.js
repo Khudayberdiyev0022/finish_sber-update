@@ -18,14 +18,10 @@ const Header = () => {
           <img src={iconSalute} alt="iconSalute" />
         </div>
         <div className={style.buttons}>
-          <button className={style.buttonGreen}>
-            <a href="http://sberbank.ru/sms/vadzd-website" target="__blank">
-              Пройти тест с ассистентами Салют
-            </a>
-          </button>
-          <button className={style.buttonBlack}>
-            <a href="#test">Остаться на сайте и пройти тест</a>
-          </button>
+          <a className={style.buttonGreen} href="http://sberbank.ru/sms/vadzd-website" target="__blank">
+            Пройти тест с ассистентами Салют
+          </a>
+          <a className={style.buttonBlack} href="#test">Остаться на сайте и пройти тест</a>
         </div>
       </div>
     </div>
