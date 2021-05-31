@@ -40,16 +40,28 @@ const NavbarMobile = () => {
                 style={{ backgroundImage: `url(${iconClose})` }}
               ></div>
               <div className={style.content}>
-                <a href="#test" onClick={() => setClick(false)}>
+                <a
+                  href="https://promo.sber.ru/kidssafety#test"
+                  onClick={() => setClick(false)}
+                >
                   Тест
                 </a>
-                <a href="#article" onClick={() => setClick(false)}>
+                <a
+                  href="https://promo.sber.ru/kidssafety#article"
+                  onClick={() => setClick(false)}
+                >
                   Статьи
                 </a>
-                <a href="#cyber" onClick={() => setClick(false)}>
+                <a
+                  href="https://promo.sber.ru/kidssafety#cyber"
+                  onClick={() => setClick(false)}
+                >
                   Виды киберугроз
                 </a>
-                <a href="#usefull" onClick={() => setClick(false)}>
+                <a
+                  href="https://promo.sber.ru/kidssafety/#usefull"
+                  onClick={() => setClick(false)}
+                >
                   Полезные материалы
                 </a>
               </div>
@@ -66,7 +78,10 @@ const NavbarMobile = () => {
                   </a>
                 </button>
                 <button className={style.buttonBlack}>
-                  <a href="#test" onClick={() => setClick(false)}>
+                  <a
+                    href="https://promo.sber.ru/kidssafety#test"
+                    onClick={() => setClick(false)}
+                  >
                     Остаться на сайте и пройти тест
                   </a>
                 </button>
