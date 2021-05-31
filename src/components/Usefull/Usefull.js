@@ -27,7 +27,7 @@ const Usefull = () => {
   return (
     <div className={style.main}>
       <div className={style.container}>
-        <h2>Полезные материалы</h2>
+        <h2 id="usefull">Полезные материалы</h2>
         <div className={style.cards}>
           {data.map((item) => (
             <div key={item.id} className={style.card}>

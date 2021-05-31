@@ -33,7 +33,7 @@ const Navbar = () => {
           <a href="/#test">Тест</a>
           <a href="/#article">Статьи</a>
           <a href="/#cyber">Виды киберугроз</a>
-          <a href="/">Полезные материалы</a>
+          <a href="/#usefull">Полезные материалы</a>
         </div>
         <a href="/">
           <img className={style.logoStatus} src={logoStatus} alt="logoStatus" />

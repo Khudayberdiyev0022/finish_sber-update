@@ -216,9 +216,16 @@
   .top {
     padding-top: 70px;
   }
+  .top h1 { 
+    width: 80%;
+  }
+  .bgContainer {
+    padding: 40px 20px;
+  }
   .container h1 {
     font-size: 26px;
     line-height: 34px;
+    margin-bottom: 16px;
   }
   .container h2 {
     font-size: 20px;

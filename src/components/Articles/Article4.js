@@ -39,7 +39,7 @@ const Article4 = () => {
           <p className={style.pargraph}>{data.numberText2Two}</p>
           <p className={style.pargraph}>{data.numberText2Three}</p>
           <h2>{data.number3}</h2>
-          <p>{data.numberText3}</p>
+          <p className={style.pargraph}>{data.numberText3}</p>
           <h2>{data.number4}</h2>
           <p className={style.pargraph}>{data.numberText4}</p>
           <p className={style.pargraph}>{data.numberText4Two}</p>

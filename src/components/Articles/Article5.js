@@ -63,7 +63,7 @@ const Article5 = () => {
             <li>{data.h3list4}</li>
           </ul>
           <p>{data.h3numberText2}</p>
-          <h2>{data.h3number2}</h2>
+          {/* <h2>{data.h3number2}</h2> */}
           <p>{data.h3numberText2}</p>
           <h2>{data.h3number3}</h2>
           <p>{data.h3numberText3}</p>

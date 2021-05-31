@@ -24,7 +24,7 @@ const Article2 = () => {
         <p>{data.pargraph}</p>
         <p>{data.pargraph1}</p>
         <p>{data.pargraph2}</p>
-        <h1>{data.h1}</h1>
+        <h2>{data.h1}</h2>
         <p>{data.p}</p>
         <p>{data.p1}</p>
         <p>{data.p2}</p>
@@ -33,12 +33,12 @@ const Article2 = () => {
         {/* <h1>{data.h2}</h1> */}
 
         <h2>{data.number1}</h2>
-        <p className={style.pargraph}>{data.numberText1}</p>
-        <p className={style.pargraph}>{data.numberText1Two}</p>
+        <p>{data.numberText1}</p>
+        <p>{data.numberText1Two}</p>
 
         <h2>{data.number2}</h2>
-        <p className={style.pargraph}>{data.numberText2}</p>
-        <p className={style.pargraph}>{data.numberText2Two}</p>
+        <p>{data.numberText2}</p>
+        <p>{data.numberText2Two}</p>
 
         <h2>{data.number3}</h2> 
           <p>{data.numberText3}</p>       
@@ -48,14 +48,14 @@ const Article2 = () => {
      
 
         <h2>{data.number4}</h2>
-        <p className={style.pargraph}>{data.numberText4}</p>
-        <p className={style.pargraph}>{data.numberText4Two}</p>
-        <p className={style.pargraph}>{data.numberText4Three}</p>
+        <p>{data.numberText4}</p>
+        <p>{data.numberText4Two}</p>
+        <p>{data.numberText4Three}</p>
 
         <h2>{data.number5}</h2>
-        <p className={style.pargraph}>{data.numberText5}</p>
-        <p className={style.pargraph}>{data.numberText5Two}</p>
-        <p className={style.pargraph}>{data.numberText5Three}</p>
+        <p>{data.numberText5}</p>
+        <p>{data.numberText5Two}</p>
+        <p>{data.numberText5Three}</p>
 
       </div>
       <div className={style.footerArticle}>
