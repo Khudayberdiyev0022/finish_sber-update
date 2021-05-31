@@ -41,29 +41,29 @@ const NavbarMobile = () => {
               ></div>
               <div className={style.content}>
                 <a
-                  href="https://promo.sber.ru/kidssafety#test"
+                  href="/kidssafety/#test"
                   onClick={() => setClick(false)}
                 >
                   Тест
                 </a>
                 <a
-                  href="https://promo.sber.ru/kidssafety#article"
+                  href="/kidssafety/#article"
                   onClick={() => setClick(false)}
                 >
                   Статьи
                 </a>
                 <a
-                  href="https://promo.sber.ru/kidssafety#cyber"
+                  href="/kidssafety/#cyber"
                   onClick={() => setClick(false)}
                 >
                   Виды киберугроз
                 </a>
-                <a
-                  href="https://promo.sber.ru/kidssafety/#usefull"
-                  onClick={() => setClick(false)}
-                >
-                  Полезные материалы
-                </a>
+                {/*<a*/}
+                {/*  href="/kidssafety/#usefull"*/}
+                {/*  onClick={() => setClick(false)}*/}
+                {/*>*/}
+                {/*  Полезные материалы*/}
+                {/*</a>*/}
               </div>
             </div>
             <div className={style.bottom} style={{ height: "40%" }}>
@@ -79,7 +79,7 @@ const NavbarMobile = () => {
                 </button>
                 <button className={style.buttonBlack}>
                   <a
-                    href="https://promo.sber.ru/kidssafety#test"
+                    href="/kidssafety/#test"
                     onClick={() => setClick(false)}
                   >
                     Остаться на сайте и пройти тест

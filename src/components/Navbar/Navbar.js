@@ -26,16 +26,16 @@ const Navbar = () => {
       }
     >
       <div className={style.container}>
-        <a href="https://promo.sber.ru/kidssafety">
+        <a href="/kidssafety">
           <img className={style.logoBrand} src={logoBrand} alt="logoBrand" />
         </a>
         <div className={style.content}>
-          <a href="https://promo.sber.ru/kidssafety/#test">Тест</a>
-          <a href="https://promo.sber.ru/kidssafety/#article">Статьи</a>
-          <a href="https://promo.sber.ru/kidssafety/#cyber">Виды киберугроз</a>
-          <a href="https://promo.sber.ru/kidssafety/#usefull">Полезные материалы</a>
+          <a href="/kidssafety/#test">Тест</a>
+          <a href="/kidssafety/#article">Статьи</a>
+          <a href="/kidssafety/#cyber">Виды киберугроз</a>
+          {/*<a href="/kidssafety/#usefull">Полезные материалы</a>*/}
         </div>
-        <a href="https://promo.sber.ru/kidssafety">
+        <a href="/kidssafety">
           <img className={style.logoStatus} src={logoStatus} alt="logoStatus" />
         </a>
       </div>

@@ -21,7 +21,7 @@ function Section() {
               </h1>
               <div className={style.see}>
                 <h2>2 июня 2020 </h2>
-                <Link to="/article1">
+                <Link to="/kidssafety/article1">
                   <div className={style.next}>
                     <img src={iconNext} alt="iconNext" />
                   </div>
@@ -34,7 +34,7 @@ function Section() {
               </h1>
               <div className={style.see}>
                 <h2>2 июня 2020 </h2>
-                <Link to="/article2">
+                <Link to="/kidssafety/article2">
                   <div className={style.next}>
                     <img src={iconNext} alt="iconNext" />
                   </div>
@@ -56,7 +56,7 @@ function Section() {
             </h1>
             <div className={style.see}>
               <h2>2 июня 2020 </h2>
-              <Link to="/article3">
+              <Link to="/kidssafety/article3">
                 <div className={style.next}>
                   <img src={iconNext} alt="iconNext" />
                 </div>
@@ -77,7 +77,7 @@ function Section() {
             </h1>
             <div className={style.see}>
               <h2>2 июня 2020 </h2>
-              <Link to="/article4">
+              <Link to="/kidssafety/article4">
                 <div className={style.next}>
                   <img src={iconNext} alt="iconNext" />
                 </div>
@@ -93,7 +93,7 @@ function Section() {
             </h1>
             <div className={style.see}>
               <h2>2 июня 2020 </h2>
-              <Link to="/article5">
+              <Link to="/kidssafety/article5">
                 <div className={style.next}>
                   <img src={iconNext} alt="iconNext" />
                 </div>
@@ -104,7 +104,7 @@ function Section() {
             <h1>Как уберечь ребенка от вредного и опасного контента в сети</h1>
             <div className={style.see}>
               <h2>2 июня 2020 </h2>
-              <Link to="/article6">
+              <Link to="/kidssafety/article6">
                 <div className={style.next}>
                   <img src={iconNext} alt="iconNext" />
                 </div>

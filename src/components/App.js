@@ -19,54 +19,54 @@ import Footer from "./Footer/Footer";
 import View from "./Views/View";
 // import Usefull from "./Usefull/Usefull";
 
-import styles from './App.module.css';
+import styles from "./App.module.css";
 
 function App() {
   var isIE = /*@cc_on!@*/ false || !!document.documentMode;
   return (
     <Router>
       <div className={styles.content}>
-          <ScrollToTop />
-          <Navbar />
-          <NavbarMobile />
-          {isIE ? (
-              <Page404 />
-          ) : (
-              <Fragment>
-                <Switch>
-                  <Route exact path="/">
-                    <Header />
-                    <HeaderPictures />
-                    <Quize />
+        <ScrollToTop />
+        <Navbar />
+        <NavbarMobile />
+        {isIE ? (
+          <Page404 />
+        ) : (
+          <Fragment>
+            <Switch>
+              <Route exact path="/kidssafety">
+                <Header />
+                <HeaderPictures />
+                <Quize />
 
-                    <Section />
-                    <View />
-                    {/* <Usefull /> */}
-                  </Route>
-                  <Route path="/article1">
-                    <Article1 />
-                  </Route>
-                  <Route path="/article2">
-                    <Article2 />
-                  </Route>
-                  <Route path="/article3">
-                    <Article3 />
-                  </Route>
-                  <Route path="/article4">
-                    <Article4 />
-                  </Route>
-                  <Route path="/article5">
-                    <Article5 />
-                  </Route>
-                  <Route exact path="/article6">
-                    <Article6 />
-                  </Route>
-                </Switch>
-              </Fragment>
-          )}
+                <Section />
+                <View />
+                {/* <Usefull /> */}
+              </Route>
+              <Route path="/kidssafety/article1">
+                <Article1 />
+              </Route>
+              <Route path="/kidssafety/article2">
+                <Article2 />
+              </Route>
+              <Route path="/kidssafety/article3">
+                <Article3 />
+              </Route>
+              <Route path="/kidssafety/article4">
+                <Article4 />
+              </Route>
+              <Route path="/kidssafety/article5">
+                <Article5 />
+              </Route>
+              <Route exact path="/kidssafety/article6">
+                <Article6 />
+              </Route>
+            </Switch>
+          </Fragment>
+        )}
       </div>
-    <Footer />
-  </Router>
+      <Footer />
+    </Router>
   );
 }
 
